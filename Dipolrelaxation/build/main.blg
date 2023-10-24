@@ -1,0 +1,17 @@
+[1] Config.pm:312> INFO - This is Biber 2.15
+[2] Config.pm:315> INFO - Logfile is 'build/main.blg'
+[178] biber:330> INFO - === Tue Oct 24, 2023, 18:08:13
+[214] Biber.pm:415> INFO - Reading 'build/main.bcf'
+[413] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[454] Biber.pm:4334> INFO - Processing section 0
+[481] Biber.pm:4523> INFO - Looking for bibtex format file 'lit.bib' for section 0
+[483] Utils.pm:395> WARN - Data source 'lit.bib' contains no BibTeX entries/macros, ignoring
+[484] Biber.pm:4523> INFO - Looking for bibtex format file 'programme.bib' for section 0
+[485] Utils.pm:395> WARN - Data source 'programme.bib' is empty, ignoring
+[502] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[503] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[505] Biber.pm:4162> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[506] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
+[508] bbl.pm:651> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
+[510] bbl.pm:754> INFO - Output to build/main.bbl
+[511] Biber.pm:128> INFO - WARNINGS: 2
