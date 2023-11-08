@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.10.12)  24 OCT 2023 18:08
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.10.12)  8 NOV 2023 17:58
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1461,23 +1461,81 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
 \openout4 = main.toc
  [2
 
-] (./content/theorie.tex) (./content/durchfuehrung.tex) (./content/auswertung.tex [3]) (./content/diskussion.tex [4]) [5]
+] (./content/theorie.tex
+<Depolarisationsstrom.png, id=58, 252.44313pt x 248.42813pt>
+File: Depolarisationsstrom.png Graphic file (type png)
+<use Depolarisationsstrom.png>
+Package luatex.def Info: Depolarisationsstrom.png  used on input line 16.
+(luatex.def)             Requested size: 209.12778pt x 205.80484pt.
+ [3] [4<./Depolarisationsstrom.png>]) (./content/durchfuehrung.tex
+<Dipolrelaxation Versuchsanordnung.png, id=79, 552.0625pt x 407.02063pt>
+File: Dipolrelaxation Versuchsanordnung.png Graphic file (type png)
+<use Dipolrelaxation Versuchsanordnung.png>
+Package luatex.def Info: Dipolrelaxation Versuchsanordnung.png  used on input line 7.
+(luatex.def)             Requested size: 418.25555pt x 308.38245pt.
 
-LaTeX Warning: Empty bibliography on input line 25.
 
-(./build/main.aux)
+Package caption Warning: \label without proper reference on input line 8.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:Versuchsanordnung' on page 5 undefined on input line 11.
+
+[5] [6<./Dipolrelaxation Versuchsanordnung.png>]) (./content/auswertung.tex [7]
+<plots/mitunter_1.5grad.pdf, id=102, 462.528pt x 346.896pt>
+File: plots/mitunter_1.5grad.pdf Graphic file (type pdf)
+<use plots/mitunter_1.5grad.pdf>
+Package luatex.def Info: plots/mitunter_1.5grad.pdf  used on input line 31.
+(luatex.def)             Requested size: 204.94751pt x 153.70923pt.
+<plots/mitunter_2grad.pdf, id=103, 462.528pt x 346.896pt>
+File: plots/mitunter_2grad.pdf Graphic file (type pdf)
+<use plots/mitunter_2grad.pdf>
+Package luatex.def Info: plots/mitunter_2grad.pdf  used on input line 36.
+(luatex.def)             Requested size: 204.94751pt x 153.70923pt.
+<plots/ohneunter_1.5grad.pdf, id=104, 462.528pt x 346.896pt>
+File: plots/ohneunter_1.5grad.pdf Graphic file (type pdf)
+<use plots/ohneunter_1.5grad.pdf>
+Package luatex.def Info: plots/ohneunter_1.5grad.pdf  used on input line 47.
+(luatex.def)             Requested size: 204.94751pt x 153.70923pt.
+<plots/ohneunter_2grad.pdf, id=105, 462.528pt x 346.896pt>
+File: plots/ohneunter_2grad.pdf Graphic file (type pdf)
+<use plots/ohneunter_2grad.pdf>
+Package luatex.def Info: plots/ohneunter_2grad.pdf  used on input line 52.
+(luatex.def)             Requested size: 204.94751pt x 153.70923pt.
+ [8<./plots/mitunter_1.5grad.pdf><./plots/mitunter_2grad.pdf>] [9<./plots/ohneunter_1.5grad.pdf><./plots/ohneunter_2grad.pdf>]
+<plots/asc_1.5grad.pdf, id=290, 462.528pt x 346.896pt>
+File: plots/asc_1.5grad.pdf Graphic file (type pdf)
+<use plots/asc_1.5grad.pdf>
+Package luatex.def Info: plots/asc_1.5grad.pdf  used on input line 114.
+(luatex.def)             Requested size: 204.94751pt x 153.70923pt.
+<plots/asc_2grad.pdf, id=291, 462.528pt x 346.896pt>
+File: plots/asc_2grad.pdf Graphic file (type pdf)
+<use plots/asc_2grad.pdf>
+Package luatex.def Info: plots/asc_2grad.pdf  used on input line 119.
+(luatex.def)             Requested size: 204.94751pt x 153.70923pt.
+<plots/int_1.5grad.pdf, id=295, 462.528pt x 346.896pt>
+File: plots/int_1.5grad.pdf Graphic file (type pdf)
+<use plots/int_1.5grad.pdf>
+Package luatex.def Info: plots/int_1.5grad.pdf  used on input line 151.
+(luatex.def)             Requested size: 204.94751pt x 153.70923pt.
+<plots/int_2grad.pdf, id=296, 462.528pt x 346.896pt>
+File: plots/int_2grad.pdf Graphic file (type pdf)
+<use plots/int_2grad.pdf>
+Package luatex.def Info: plots/int_2grad.pdf  used on input line 156.
+(luatex.def)             Requested size: 204.94751pt x 153.70923pt.
+ [10<./plots/asc_1.5grad.pdf><./plots/asc_2grad.pdf>]) (./content/diskussion.tex [11<./plots/int_1.5grad.pdf><./plots/int_2grad.pdf>]
+LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 16.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 16.
+) [12] [13] (./build/main.aux)
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: B684710E4E2C37AE009913777B363911;3070.
+(rerunfilecheck)             Checksum: 3CC4925144446ED35F68232770809735;13625.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 3F1939605B9828C6A53D476FFC3AF0DF;456.
+(rerunfilecheck)             Checksum: AECF3DED616DFE77BA1F0866911EB8E6;1651.
 
 
 LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 
@@ -1485,19 +1543,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 35076 strings out of 479059
+ 35641 strings out of 479059
  100000,1977958 words of node,token memory allocated
- 626 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 1 dir, 2 glue, 4 kern, 1 glyph, 11 attribute, 77 glue_spec, 7 attribute_list, 1 write nodes
-   avail lists: 1:3,2:222,3:72,4:8,5:54,6:14,7:623,8:13,9:76,10:6,11:53
- 53395 multiletter control sequences out of 65536+600000
- 101 fonts using 36162307 bytes
- 98i,6n,114p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,200000s
-</home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (5 pages, 17943 bytes).
+ 849 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 dir, 2 glue, 4 kern, 1 glyph, 69 attribute, 81 glue_spec, 36 attribute_list, 1 write nodes
+   avail lists: 1:3,2:914,3:263,4:42,5:428,6:58,7:6098,8:64,9:596,10:11,11:406
+ 53858 multiletter control sequences out of 65536+600000
+ 163 fonts using 58804103 bytes
+ 98i,14n,114p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,200000s
+</home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman5-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on main.pdf (13 pages, 1088415 bytes).
 
-PDF statistics: 83 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 131072)
- 33 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 695 PDF objects out of 1000 (max. 8388607)
+ 343 compressed objects within 4 object streams
+ 53 named destinations out of 1000 (max. 131072)
+ 145 words of extra memory for PDF output out of 10000 (max. 100000000)
 

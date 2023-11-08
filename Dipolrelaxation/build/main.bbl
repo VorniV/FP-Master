@@ -16,5 +16,40 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{muccillo}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3aed0db15119a3eceb9268cd5fdf592c}{%
+           family={Muccillo},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=710498c3cfd158280e90bc787541cf5b}{%
+           family={Rolfe},
+           familyi={R\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{387a136b1c0e7ceb66e0690e1dae38a1}
+      \strng{fullhash}{387a136b1c0e7ceb66e0690e1dae38a1}
+      \strng{bibnamehash}{387a136b1c0e7ceb66e0690e1dae38a1}
+      \strng{authorbibnamehash}{387a136b1c0e7ceb66e0690e1dae38a1}
+      \strng{authornamehash}{387a136b1c0e7ceb66e0690e1dae38a1}
+      \strng{authorfullhash}{387a136b1c0e7ceb66e0690e1dae38a1}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{phisica status solidi}
+      \field{title}{Effect of Irradiation on Impurity-Vacancy Dipoles in $\ce{K Br}$ Crystalls Doped with Strontium}
+      \field{volume}{61}
+      \field{year}{1974}
+      \field{pages}{579\bibrangedash 587}
+      \range{pages}{9}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
