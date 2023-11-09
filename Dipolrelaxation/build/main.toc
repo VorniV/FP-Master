@@ -11,7 +11,7 @@
 \contentsline {subsection}{\numberline {3.1}Aufbau}{5}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Messreihen}{7}{subsection.3.2}%
 \contentsline {section}{\numberline {4}Auswertung}{8}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Untergrnd}{8}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.1}Untergrund}{8}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Heizrate}{8}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Aktivierungsenergie - Polarisationsansatz}{9}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}Aktivierungsenergie - Integralansatz}{10}{subsection.4.4}%

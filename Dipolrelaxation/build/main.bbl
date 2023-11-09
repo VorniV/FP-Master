@@ -19,6 +19,48 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{anleitung}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=2821a70f99517ac7757c95300d43e95c}{%
+           family={Dortmund},
+           familyi={D\bibinitperiod},
+           given={TU},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{fullhash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{bibnamehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{authorbibnamehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{authornamehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{authorfullhash}{2821a70f99517ac7757c95300d43e95c}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{V48- Dipolrelaxation in Ionenkristallen}
+      \field{year}{2022}
+    \endentry
+    \entry{fuller}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=6128610475ffc2a1b0bf53134f954537}{%
+           family={Fuller},
+           familyi={F\bibinitperiod},
+           given={R.\bibnamedelimi G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{6128610475ffc2a1b0bf53134f954537}
+      \strng{fullhash}{6128610475ffc2a1b0bf53134f954537}
+      \strng{bibnamehash}{6128610475ffc2a1b0bf53134f954537}
+      \strng{authorbibnamehash}{6128610475ffc2a1b0bf53134f954537}
+      \strng{authornamehash}{6128610475ffc2a1b0bf53134f954537}
+      \strng{authorfullhash}{6128610475ffc2a1b0bf53134f954537}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Research Project for Undergraduates: Ionic Thermoconductivity in Dielectrics.}
+      \field{year}{1972}
+    \endentry
     \entry{muccillo}{article}{}
       \name{author}{2}{}{%
         {{hash=3aed0db15119a3eceb9268cd5fdf592c}{%

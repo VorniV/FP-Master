@@ -2351,7 +2351,11 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">programme.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">muccillo</bcf:citekey>
+    <bcf:citekey order="1">fuller</bcf:citekey>
+    <bcf:citekey order="2">fuller</bcf:citekey>
+    <bcf:citekey order="3">anleitung</bcf:citekey>
+    <bcf:citekey order="4">anleitung</bcf:citekey>
+    <bcf:citekey order="5">muccillo</bcf:citekey>
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
