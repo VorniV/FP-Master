@@ -1,0 +1,4 @@
+#Schwellenwert[V]
+2.929
+
+

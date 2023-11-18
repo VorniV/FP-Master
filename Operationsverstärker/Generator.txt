@@ -1,0 +1,3 @@
+#U1_Rechteck [V]	#Ua_Dreieck [V]	#Frequenz_1_Rechteck [kHz]	#Frequenz_2_Dreieck [kHz]
+14.5	2.2	1.63	1.63  2
+
