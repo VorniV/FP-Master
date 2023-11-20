@@ -1,0 +1,16 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Ziel}{3}{section.1}%
+\contentsline {section}{\numberline {2}Theorie}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Schaltungen mit Operationsverstärkern}{3}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Invertierter Linearverstärker}{3}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Umkehrintegrator}{4}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}invertierter Differentiator}{5}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Schmitt-Trigger}{6}{subsubsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.5}Signalgenerator}{6}{subsubsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.6}Signalgenerator mit variierenden Amplituden}{8}{subsubsection.2.1.6}%
+\contentsline {section}{\numberline {3}Durchführung}{8}{section.3}%
+\contentsline {section}{\numberline {4}Auswertung}{10}{section.4}%
+\contentsline {section}{\numberline {5}Diskussion}{11}{section.5}%
+\contentsline {section}{\nonumberline References}{12}{section*.9}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
