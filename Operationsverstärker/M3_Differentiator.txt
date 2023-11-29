@@ -1,8 +1,8 @@
-#Frequenz [kHz]	#Amplitude [V]
-10	0.09	
+#Frequenz [Hz]	#Amplitude [V]
+10	0.09
 20	0.18
 30	0.235
-40	0.29	
+40	0.29
 50	0.38
 60	0.44
 80	0.55
