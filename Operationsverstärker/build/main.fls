@@ -482,6 +482,66 @@ INPUT ./content/durchfuehrung.tex
 INPUT ./content/durchfuehrung.tex
 INPUT ./content/auswertung.tex
 INPUT ./content/auswertung.tex
+INPUT ./Frequenzgang Messreihe1.png
+INPUT ./Frequenzgang Messreihe1.png
+INPUT ./Frequenzgang Messreihe1.png
+INPUT /home/jannis/.local/texlive/2020/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-regular.luc
+INPUT /home/jannis/.local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
+INPUT /home/jannis/.local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /home/jannis/.local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT ./Frequenzgang Messreihe2.png
+INPUT ./Frequenzgang Messreihe2.png
+INPUT ./Frequenzgang Messreihe2.png
+INPUT ./Frequenzgang Messreihe3.png
+INPUT ./Frequenzgang Messreihe3.png
+INPUT ./Frequenzgang Messreihe3.png
+INPUT ./Operationsverstärker Phase1.png
+INPUT ./Operationsverstärker Phase1.png
+INPUT ./Operationsverstärker Phase1.png
+INPUT ./Operationsverstärker Phase2.png
+INPUT ./Operationsverstärker Phase2.png
+INPUT ./Operationsverstärker Phase2.png
+INPUT ./Operationsverstärker Phase3.png
+INPUT ./Operationsverstärker Phase3.png
+INPUT ./Operationsverstärker Phase3.png
+INPUT /home/jannis/.local/texlive/2020/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-bold.luc
+INPUT /home/jannis/.local/texlive/2020/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-bold.luc
+INPUT ./Integrator.png
+INPUT ./Integrator.png
+INPUT ./Integrator.png
+INPUT ./scope_3.png
+INPUT ./scope_3.png
+INPUT ./scope_3.png
+INPUT ./scope_4.png
+INPUT ./scope_4.png
+INPUT ./scope_4.png
+INPUT ./scope_5.png
+INPUT ./scope_5.png
+INPUT ./scope_5.png
+INPUT ./Differentiator.png
+INPUT ./Differentiator.png
+INPUT ./Differentiator.png
+INPUT ./scope_6.png
+INPUT ./scope_6.png
+INPUT ./scope_6.png
+INPUT ./scope_9.png
+INPUT ./scope_9.png
+INPUT ./scope_9.png
+INPUT ./scope_10.png
+INPUT ./scope_10.png
+INPUT ./scope_10.png
+INPUT ./scope_14.png
+INPUT ./scope_14.png
+INPUT ./scope_14.png
+INPUT ./scope_15.png
+INPUT ./scope_15.png
+INPUT ./scope_15.png
+INPUT ./ged schwing.png
+INPUT ./ged schwing.png
+INPUT ./ged schwing.png
+INPUT ./ged schwing log.png
+INPUT ./ged schwing log.png
+INPUT ./ged schwing log.png
 INPUT ./content/diskussion.tex
 INPUT ./content/diskussion.tex
 INPUT /home/jannis/.local/texlive/2020/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc
