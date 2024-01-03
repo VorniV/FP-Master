@@ -1,0 +1,55 @@
+\section{Theorie}
+\label{sec:Theorie}
+
+\subsection{Zielsetzung}
+Ziel des Versuches ist es, die Lebensdauer kosmischer Myonen zu bestimmen. 
+Zudem soll die dafür verwendete Schaltung genauer untersucht werden.
+
+
+\subsection{Entstehung und Zerfall kosmischer Myonen}
+Treffen hoch energetische kosmische Teilchen auf die Erdatmosphäre, so entstehen sogenannte Luftschauer, in denen wiederum Myonen entstehen.
+In diesen Luftschauern entstehen durch unterschiedliche Prozesse Pionen, welche eine kurze Lebensdauer besitzen und anschließend zu Myonen zerfallen
+
+\begin{align*}
+    \pi^+ \rightarrow \mu^+ + \nu_\mu \\
+    \pi^- \rightarrow \mu^- + \bar \nu_\mu.
+\end{align*}
+Die entstandenen Myonen bewegen sich mit nahezu Lichtgeschwindigkeit Richtung Erde. 
+Durch die Relativistische Geschwindigkeit erreichen genug Myonen die Erdoberfläche, um sie dort mit einem Szintillator zu detektieren.
+Treten die Myonen in den Szintillator ein, so wechselwirken sie mit der Szintillatormaterie.
+Dabei geben sie einen Teil ihrer Energie an die mit ihnen wechselwirkenden Moleküle ab.
+Dadurch werden diese Moleküle angeregt und fallen nach einiger Zeit zurück in ihren Grundzustand.
+Bei dieser Relaxation wird ein Photon emittiert, welches detektiert werden kann und somit das Eintreffen eines Myons in den Szintillator.
+Ein Teil der Myonen zerfällt zudem innerhalb des Szintillators in ein Elektron und zwei Neutrinos
+
+\begin{align*}
+    \mu^- \rightarrow e^- + \bar \nu_e + \nu_\mu \\
+    \mu^+ \rightarrow e^+ + \nu_e + \bar \nu_\mu.
+\end{align*}
+Die dabei entstehenden Elektronen erzeugen ebenfalls Photonen innerhalb des Detektors, wodurch der zeitliche Abstand zwischen eintreten eines Myons und seinem Zerfall gemessen werden kann.
+Dieser zeitliche Abstand entspricht der individuellen Lebensdauer des jeweiligen Myons.
+
+
+\subsection{Lebensdauer der Myonen}
+Der Zerfall eines Elementarteilchens wie das Myon ist ein statistischer Prozess.
+Jedes Teilchen hat die selbe Wahrscheinlichkeit d$W$ zu zerfallen.
+Diese Wahrscheinlichkeit ist proportional zur Zeit d$t$.
+Daraus folgt: 
+
+\begin{equation}
+    \text{d}W = \lambda \text{d}t.
+\end{equation}
+Für den Zerfall von N Teilchen gilt somit
+
+\begin{equation}
+    \text{d}N = - N \text{d}W = - \lambda N \text{d}t.
+\end{equation}
+Dabei ist d$N$ die Anzahl der Teilchen die im, Zeitraum d$t$ zerfallen, wenn N Teilchen beobachtet werden.
+Durch integrieren der Gleichung folgt das Zerfallsgesetz:
+
+\begin{equation}
+    N(t) = N_0 \cdot \text{exp}(-\lambda t).
+\end{equation}
+Dabei ist $\lambda$ die Zerfallskonstante, t die Zeit und $N_0$ die Anzahl der betrachteten Teilchen.
+Die Lebensdauer $\tau$ entspricht nun der Zeit $t$, nach der die noch nicht zerfallenen Teilchen $N(t) = \frac{N_0}{e}$ entsprechen.
+Die Lebensdauer kann durch $\tau = \frac{1}{\lambda}$ berechnet werden.
