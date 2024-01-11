@@ -1,0 +1,16 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Theorie}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Zielsetzung}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Entstehung und Zerfall kosmischer Myonen}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Lebensdauer der Myonen}{3}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Aufbau und Durchführung}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Aufbau}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Durchführung}{6}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Auswertung}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Wahl der Verzögerungszeit}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Kalibrierung der Kanalzeit}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Berechnung der Untergrundrate}{9}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Bestimmung der Zerfallszeit}{9}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Diskussion}{11}{section.4}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

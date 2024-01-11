@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/W32TeX)  (format=lualatex 2020.11.30)  11 JAN 2024 21:47
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/W32TeX)  (format=lualatex 2020.11.30)  11 JAN 2024 23:21
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1676,202 +1676,60 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
  [2
 
 ]
-(./content/theorie.tex
-<plots/Verstärker.png, id=61, 1196.97188pt x 619.56468pt>
-File: plots/Verstärker.png Graphic file (type png)
-<use plots/Verstärker.png>
-Package luatex.def Info: plots/Verstärker.png  used on input line 60.
-(luatex.def)             Requested size: 250.95587pt x 129.89497pt.
+(./content/theorie.tex [3]) (./content/durchfuehrung.tex
+<plots/V01_Aufbau.png, id=57, 1036.62282pt x 1740.5025pt>
+File: plots/V01_Aufbau.png Graphic file (type png)
+<use plots/V01_Aufbau.png>
+Package luatex.def Info: plots/V01_Aufbau.png  used on input line 17.
+(luatex.def)             Requested size: 292.7776pt x 491.58664pt.
 
 
-LaTeX Warning: Citation 'Anleitung' on page 3 undefined on input line 61.
+LaTeX Warning: Citation 'V01' on page 4 undefined on input line 18.
 
 
-LaTeX Warning: Citation 'Anleitung' on page 3 undefined on input line 61.
+LaTeX Warning: Citation 'V01' on page 4 undefined on input line 18.
 
-[3]
-<plots/Integrator.png, id=73, 1196.97188pt x 694.09312pt>
-File: plots/Integrator.png Graphic file (type png)
-<use plots/Integrator.png>
-Package luatex.def Info: plots/Integrator.png  used on input line 95.
-(luatex.def)             Requested size: 250.95587pt x 145.52026pt.
-
-
-LaTeX Warning: Citation 'Anleitung' on page 4 undefined on input line 96.
-
-
-LaTeX Warning: Citation 'Anleitung' on page 4 undefined on input line 96.
-
-[4<./plots/Verstärker.png>]
-<plots/Differentiator.png, id=89, 1196.97188pt x 635.37375pt>
-File: plots/Differentiator.png Graphic file (type png)
-<use plots/Differentiator.png>
-Package luatex.def Info: plots/Differentiator.png  used on input line 135.
-(luatex.def)             Requested size: 250.95587pt x 133.20943pt.
-
-
-LaTeX Warning: Citation 'Anleitung' on page 5 undefined on input line 136.
-
-
-LaTeX Warning: Citation 'Anleitung' on page 5 undefined on input line 136.
-
-[5<./plots/Integrator.png><./plots/Differentiator.png>]
-<plots/Schmitt.png, id=102, 1196.97188pt x 644.4075pt>
-File: plots/Schmitt.png Graphic file (type png)
-<use plots/Schmitt.png>
-Package luatex.def Info: plots/Schmitt.png  used on input line 177.
-(luatex.def)             Requested size: 250.95587pt x 135.10341pt.
-
-
-LaTeX Warning: Citation 'Anleitung' on page 6 undefined on input line 178.
-
-
-LaTeX Warning: Citation 'Anleitung' on page 6 undefined on input line 178.
-
-[6<./plots/Schmitt.png>]
-<plots/Generator.png, id=112, 1656.1875pt x 584.1825pt>
-File: plots/Generator.png Graphic file (type png)
-<use plots/Generator.png>
-Package luatex.def Info: plots/Generator.png  used on input line 192.
-(luatex.def)             Requested size: 292.7776pt x 103.26747pt.
-
-
-LaTeX Warning: Citation 'Anleitung' on page 7 undefined on input line 193.
-
-
-LaTeX Warning: Citation 'Anleitung' on page 7 undefined on input line 193.
-
-<plots/Schwingung.png, id=114, 2063.45906pt x 671.50874pt>
-File: plots/Schwingung.png Graphic file (type png)
-<use plots/Schwingung.png>
-Package luatex.def Info: plots/Schwingung.png  used on input line 215.
-(luatex.def)             Requested size: 334.60571pt x 108.88834pt.
-
-LaTeX Warning: Citation 'Anleitung' on page 7 undefined on input line 216.
-
-
-LaTeX Warning: Citation 'Anleitung' on page 7 undefined on input line 216.
-
-) (./content/durchfuehrung.tex [7<./plots/Generator.png>])
-(./content/auswertung.tex [8<./plots/Schwingung.png>]
-<Frequenzgang Messreihe1.png, id=133, 377.9721pt x 245.718pt>
-File: Frequenzgang Messreihe1.png Graphic file (type png)
-<use Frequenzgang Messreihe1.png>
-Package luatex.def Info: Frequenzgang Messreihe1.png  used on input line 20.
-(luatex.def)             Requested size: 250.95587pt x 163.14545pt.
+[4] [5<./plots/V01_Aufbau.png>]) (./content/auswertung.tex [6]
+<plots/Auflösungszeit_18ns.png, id=79, 406.8801pt x 312.2064pt>
+File: plots/Auflösungszeit_18ns.png Graphic file (type png)
+<use plots/Auflösungszeit_18ns.png>
+Package luatex.def Info: plots/Auflösungszeit_18ns.png  used on input line 9.
+(luatex.def)             Requested size: 250.95587pt x 192.56079pt.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 21.
+(Font)              scaled to size 5.00053pt on input line 10.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 21.
-<Frequenzgang Messreihe2.png, id=134, 377.9721pt x 242.8272pt>
-File: Frequenzgang Messreihe2.png Graphic file (type png)
-<use Frequenzgang Messreihe2.png>
-Package luatex.def Info: Frequenzgang Messreihe2.png  used on input line 27.
-(luatex.def)             Requested size: 250.95587pt x 161.22609pt.
-<Frequenzgang Messreihe3.png, id=135, 377.9721pt x 242.8272pt>
-File: Frequenzgang Messreihe3.png Graphic file (type png)
-<use Frequenzgang Messreihe3.png>
-Package luatex.def Info: Frequenzgang Messreihe3.png  used on input line 34.
-(luatex.def)             Requested size: 250.95587pt x 161.22609pt.
-<Operationsverstärker Phase1.png, id=136, 371.4678pt x 242.8272pt>
-File: Operationsverstärker Phase1.png Graphic file (type png)
-<use Operationsverstärker Phase1.png>
-Package luatex.def Info: Operationsverstärker Phase1.png  used on input line 41
-.
-(luatex.def)             Requested size: 250.95587pt x 164.05319pt.
-<Operationsverstärker Phase2.png, id=137, 371.4678pt x 242.8272pt>
-File: Operationsverstärker Phase2.png Graphic file (type png)
-<use Operationsverstärker Phase2.png>
-Package luatex.def Info: Operationsverstärker Phase2.png  used on input line 42
-.
-(luatex.def)             Requested size: 250.95587pt x 164.05319pt.
-<Operationsverstärker Phase3.png, id=138, 371.4678pt x 242.8272pt>
-File: Operationsverstärker Phase3.png Graphic file (type png)
-<use Operationsverstärker Phase3.png>
-Package luatex.def Info: Operationsverstärker Phase3.png  used on input line 43
-.
-(luatex.def)             Requested size: 250.95587pt x 164.05319pt.
- [9<./Frequenzgang Messreihe1.png>] [10<./Frequenzgang Messreihe2.png><./Frequen
-zgang Messreihe3.png>]
-[11<./Operationsverstärker Phase1.png><./Operationsverstärker Phase2.png><./Op
-erationsverstärker Phase3.png>]
-<Integrator.png, id=170, 378.6948pt x 242.8272pt>
-File: Integrator.png Graphic file (type png)
-<use Integrator.png>
-Package luatex.def Info: Integrator.png  used on input line 79.
-(luatex.def)             Requested size: 250.95587pt x 160.91856pt.
-<scope_3.png, id=171, 803.0pt x 541.02126pt>
-File: scope_3.png Graphic file (type png)
-<use scope_3.png>
-Package luatex.def Info: scope_3.png  used on input line 86.
-(luatex.def)             Requested size: 250.95587pt x 169.07698pt.
-<scope_4.png, id=172, 803.0pt x 541.02126pt>
-File: scope_4.png Graphic file (type png)
-<use scope_4.png>
-Package luatex.def Info: scope_4.png  used on input line 87.
-(luatex.def)             Requested size: 250.95587pt x 169.07698pt.
-<scope_5.png, id=173, 803.0pt x 541.02126pt>
-File: scope_5.png Graphic file (type png)
-<use scope_5.png>
-Package luatex.def Info: scope_5.png  used on input line 88.
-(luatex.def)             Requested size: 250.95587pt x 169.07698pt.
-<Differentiator.png, id=176, 378.6948pt x 242.8272pt>
-File: Differentiator.png Graphic file (type png)
-<use Differentiator.png>
-Package luatex.def Info: Differentiator.png  used on input line 102.
-(luatex.def)             Requested size: 250.95587pt x 160.91856pt.
-<scope_6.png, id=177, 803.0pt x 541.02126pt>
-File: scope_6.png Graphic file (type png)
-<use scope_6.png>
-Package luatex.def Info: scope_6.png  used on input line 108.
-(luatex.def)             Requested size: 250.95587pt x 169.07698pt.
-<scope_9.png, id=178, 803.0pt x 541.02126pt>
-File: scope_9.png Graphic file (type png)
-<use scope_9.png>
-Package luatex.def Info: scope_9.png  used on input line 109.
-(luatex.def)             Requested size: 250.95587pt x 169.07698pt.
-<scope_10.png, id=179, 803.0pt x 541.02126pt>
-File: scope_10.png Graphic file (type png)
-<use scope_10.png>
-Package luatex.def Info: scope_10.png  used on input line 110.
-(luatex.def)             Requested size: 250.95587pt x 169.07698pt.
- [12] [13<./Integrator.png>] [14<./scope_3.png><./scope_4.png><./scope_5.png>]
-<scope_14.png, id=212, 803.0pt x 541.02126pt>
-File: scope_14.png Graphic file (type png)
-<use scope_14.png>
-Package luatex.def Info: scope_14.png  used on input line 142.
-(luatex.def)             Requested size: 250.95587pt x 169.07698pt.
-<scope_15.png, id=214, 803.0pt x 541.02126pt>
-File: scope_15.png Graphic file (type png)
-<use scope_15.png>
-Package luatex.def Info: scope_15.png  used on input line 151.
-(luatex.def)             Requested size: 250.95587pt x 169.07698pt.
-<ged schwing.png, id=216, 388.0899pt x 245.718pt>
-File: ged schwing.png Graphic file (type png)
-<use ged schwing.png>
-Package luatex.def Info: ged schwing.png  used on input line 162.
-(luatex.def)             Requested size: 204.94751pt x 129.76498pt.
-<ged schwing log.png, id=217, 395.3169pt x 242.8272pt>
-File: ged schwing log.png Graphic file (type png)
-<use ged schwing log.png>
-Package luatex.def Info: ged schwing log.png  used on input line 163.
-(luatex.def)             Requested size: 204.94751pt x 125.88922pt.
- [15<./Differentiator.png>] [16<./scope_6.png><./scope_9.png><./scope_10.png>] 
-[17<./scope_14.png><./scope_15.png><./ged schwing.png><./ged schwing log.png>]) (./content/diskussion.tex [18])
-Overfull \hbox (1.59558pt too wide) in paragraph at lines 4--24
-\TU/lmr/m/n/10.95 Im Gegen-satz dazu kon-nten bei den Generator-Schaltungen zwar
- die er-warteten Schwingun-
- []
+(Font)              scaled to size 4.99947pt on input line 10.
+<plots/Auflösungszeit_10ns.png, id=80, 416.2752pt x 312.2064pt>
+File: plots/Auflösungszeit_10ns.png Graphic file (type png)
+<use plots/Auflösungszeit_10ns.png>
+Package luatex.def Info: plots/Auflösungszeit_10ns.png  used on input line 15.
+(luatex.def)             Requested size: 250.95587pt x 188.21613pt.
+ [7<./plots/Auflösungszeit_18ns.png>]
+<plots/Kanalkalibrierung.png, id=94, 412.6617pt x 312.2064pt>
+File: plots/Kanalkalibrierung.png Graphic file (type png)
+<use plots/Kanalkalibrierung.png>
+Package luatex.def Info: plots/Kanalkalibrierung.png  used on input line 41.
+(luatex.def)             Requested size: 250.95587pt x 189.86443pt.
+ [8<./plots/Auflösungszeit_10ns.png>]
+<plots/Hauptmessung.png, id=109, 419.166pt x 315.0972pt>
+File: plots/Hauptmessung.png Graphic file (type png)
+<use plots/Hauptmessung.png>
+Package luatex.def Info: plots/Hauptmessung.png  used on input line 67.
+(luatex.def)             Requested size: 334.60571pt x 251.53479pt.
+ [9<./plots/Kanalkalibrierung.png>]) (./content/diskussion.tex [10<./plots/Haupt
+messung.png>]
 
-[19]
+LaTeX Warning: Citation 'pdglive' on page 11 undefined on input line 8.
+
+) [11]
 
 LaTeX Warning: Empty bibliography on input line 25.
 
 (./main.aux)
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 673B195E2D6099D5FFC82FDED6FC865A;19439.
+(rerunfilecheck)             Checksum: 2B433238F97443CD906246591A063F87;9641.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: F3C90E1E43B8988DD7AEFC1DD973D696;1802.
+(rerunfilecheck)             Checksum: 8FC24015BC3D7AF25174FDA4E0AFCE0B;1262.
 
 
 LaTeX Warning: There were undefined references.
@@ -1887,29 +1745,27 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 35840 strings out of 479005
+ 35536 strings out of 479005
  100000,1977958 words of node,token memory allocated
- 1084 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 11 dir, 2 glue, 4 kern, 1 glyph, 139 attribute, 80 
-glue_spec, 71 attribute_list, 1 write nodes
-   avail lists: 1:3,2:1846,3:308,4:55,5:747,6:59,7:5842,8:86,9:1265,10:15,11:438
-
- 54000 multiletter control sequences out of 65536+600000
- 162 fonts using 41726867 bytes
+ 792 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 4 dir, 2 glue, 4 kern, 1 glyph, 55 attribute, 79 gl
+ue_spec, 29 attribute_list, 1 write nodes
+   avail lists: 1:4,2:958,3:209,4:45,5:429,6:43,7:6878,8:66,9:445,10:19,11:423
+ 53836 multiletter control sequences out of 65536+600000
+ 162 fonts using 41727355 bytes
  110i,13n,114p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,200000s
-<c:/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/te
-xlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/tex
-live/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/202
-0/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2020
-/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2020/
-texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2020/texmf
--dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2020/texmf-dist
-/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2020/texmf-dist/fonts/op
-entype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (19 pages, 914693 bytes).
+<c:/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texl
+ive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texli
+ve/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texliv
+e/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive
+/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2020
+/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2020/texm
+f-dist/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2020/texmf-dist/fo
+nts/opentype/public/lm/lmroman12-bold.otf>
+Output written on main.pdf (11 pages, 420125 bytes).
 
-PDF statistics: 373 PDF objects out of 1000 (max. 8388607)
- 282 compressed objects within 3 object streams
- 87 named destinations out of 1000 (max. 131072)
- 153 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 232 PDF objects out of 1000 (max. 8388607)
+ 183 compressed objects within 2 object streams
+ 49 named destinations out of 1000 (max. 131072)
+ 105 words of extra memory for PDF output out of 10000 (max. 100000000)
 
