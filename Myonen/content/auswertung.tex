@@ -96,7 +96,7 @@ $dt[ns]$ & $N$ \\
 \hline
 \end{tabular}
 \end{table}
-Für beide Pulsbreiten wurde die konstante Messrate auf dem sichtbaren Plateau und aus dieser die jeweiligen Halbwertsbreiten $t_{HWB}$ bestimmt. Die Messdaten befinden sich in den Tabellen $\ref{tab:18ns}$ und $\ref{10ns}$. Um diese zu ermitteln wird lineare Interpolation zwischen den beiden einschließenden Punkten der Messung verwendet. Für eine Pulsbreite von $\SI{18}{\nano\second}$ ergibt dies:
+Für beide Pulsbreiten wurde die konstante Messrate auf dem sichtbaren Plateau und aus dieser die jeweiligen Halbwertsbreiten $t_{HWB}$ bestimmt. Die Messdaten befinden sich in den Tabellen $\ref{tab:18ns}$ und $\ref{tab:10ns}$. Um diese zu ermitteln wird lineare Interpolation zwischen den beiden einschließenden Punkten der Messung verwendet. Für eine Pulsbreite von $\SI{18}{\nano\second}$ ergibt dies:
 \begin{gather}
 dt_{18ns,links}=\SI{-19,125}{\nano\second} \\
 dt_{18ns,rechts}=\SI{9,47}{\nano\second} \\
@@ -113,8 +113,8 @@ Daraus lässt sich jeweils die Auflösungszeit $\Delta t$ bestimmen:
 \Delta t_{18ns}=\lvert2*18-t_{HWB,18ns}\rvert=\SI{7,41}{\nano\second} \\
 \Delta t_{10ns}=\lvert2*10-t_{HWB,10ns}\rvert=\SI{1,2}{\nano\second}
 \end{gather}
-Für die Hauptmessung wurde die Pulsbreite $\SI{10}{\nano\second}$ verwendet. Aufgrund der Platzierung des Plateaus wurde hier im folgenden eine Verzögerungszeit von $dt=\SI{2}{\nano\second}$ 
-\subsection{Kalibrierung der Kanalzeit}
+Für die Hauptmessung wurde die Pulsbreite $\SI{10}{\nano\second}$ verwendet. Aufgrund der Platzierung des Plateaus wurde hier im folgenden eine Verzögerungszeit von $dt=\SI{-2}{\nano\second}$ 
+\subsection{Kalibrierung des Multichannel-Analyzers}
 Um die Kanäle des MCA für die Messung sinnvoll in eine Zerfallsdauer übersetzen zu können wird mit einem Doppelpusgenerator ein Signal mit einer Festgelegten Zeit eingespeist und die betroffenen Kanäle des Analyzers werden gemessen. 
 \begin{table}
 \centering
@@ -122,7 +122,7 @@ Um die Kanäle des MCA für die Messung sinnvoll in eine Zerfallsdauer übersetz
 \label{tab:MCA}
 \begin{tabular}{|c|c|}
 \hline
-$t[\mu s]$ & $Kanal$
+$t[\mu s]$ & $Kanal$ \\
 \hline
 0,5 & 4 \\
 1 & 15 \\

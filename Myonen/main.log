@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/W32TeX)  (format=lualatex 2020.11.30)  11 JAN 2024 23:21
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/W32TeX)  (format=lualatex 2020.11.30)  12 JAN 2024 18:41
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1690,46 +1690,56 @@ LaTeX Warning: Citation 'V01' on page 4 undefined on input line 18.
 LaTeX Warning: Citation 'V01' on page 4 undefined on input line 18.
 
 [4] [5<./plots/V01_Aufbau.png>]) (./content/auswertung.tex [6]
+LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 9.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 9.
+
+Underfull \hbox (badness 3396) in paragraph at lines 9--9
+[][]|\TU/lmr/m/n/10 Tabelle der Mess-daten für die Zählrate in Ab-hängigkeit von der
+ []
+
 <plots/Auflösungszeit_18ns.png, id=79, 406.8801pt x 312.2064pt>
 File: plots/Auflösungszeit_18ns.png Graphic file (type png)
 <use plots/Auflösungszeit_18ns.png>
-Package luatex.def Info: plots/Auflösungszeit_18ns.png  used on input line 9.
+Package luatex.def Info: plots/Auflösungszeit_18ns.png  used on input line 49.
 (luatex.def)             Requested size: 250.95587pt x 192.56079pt.
-LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 10.
-LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 10.
 <plots/Auflösungszeit_10ns.png, id=80, 416.2752pt x 312.2064pt>
 File: plots/Auflösungszeit_10ns.png Graphic file (type png)
 <use plots/Auflösungszeit_10ns.png>
-Package luatex.def Info: plots/Auflösungszeit_10ns.png  used on input line 15.
+Package luatex.def Info: plots/Auflösungszeit_10ns.png  used on input line 55.
 (luatex.def)             Requested size: 250.95587pt x 188.21613pt.
- [7<./plots/Auflösungszeit_18ns.png>]
-<plots/Kanalkalibrierung.png, id=94, 412.6617pt x 312.2064pt>
+
+Underfull \hbox (badness 3396) in paragraph at lines 62--62
+[][]|\TU/lmr/m/n/10 Tabelle der Mess-daten für die Zählrate in Ab-hängigkeit von der
+ []
+
+[7]
+<plots/Kanalkalibrierung.png, id=91, 412.6617pt x 312.2064pt>
 File: plots/Kanalkalibrierung.png Graphic file (type png)
 <use plots/Kanalkalibrierung.png>
-Package luatex.def Info: plots/Kanalkalibrierung.png  used on input line 41.
+Package luatex.def Info: plots/Kanalkalibrierung.png  used on input line 149.
 (luatex.def)             Requested size: 250.95587pt x 189.86443pt.
- [8<./plots/Auflösungszeit_10ns.png>]
-<plots/Hauptmessung.png, id=109, 419.166pt x 315.0972pt>
+ [8<./plots/Auflösungszeit_18ns.png>] [9] [10<./plots/Auflösungszeit_10ns.png>
+<./plots/Kanalkalibrierung.png>]
+<plots/Hauptmessung.png, id=123, 419.166pt x 315.0972pt>
 File: plots/Hauptmessung.png Graphic file (type png)
 <use plots/Hauptmessung.png>
-Package luatex.def Info: plots/Hauptmessung.png  used on input line 67.
+Package luatex.def Info: plots/Hauptmessung.png  used on input line 175.
 (luatex.def)             Requested size: 334.60571pt x 251.53479pt.
- [9<./plots/Kanalkalibrierung.png>]) (./content/diskussion.tex [10<./plots/Haupt
-messung.png>]
+ [11]) (./content/diskussion.tex [12<./plots/Hauptmessung.png>]
 
-LaTeX Warning: Citation 'pdglive' on page 11 undefined on input line 8.
+LaTeX Warning: Citation 'pdglive' on page 13 undefined on input line 8.
 
-) [11]
+) [13]
 
 LaTeX Warning: Empty bibliography on input line 25.
 
 (./main.aux)
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 2B433238F97443CD906246591A063F87;9641.
+(rerunfilecheck)             Checksum: C49A254156CD8E4FED0299062B58174D;10953.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 8FC24015BC3D7AF25174FDA4E0AFCE0B;1262.
+(rerunfilecheck)             Checksum: 70C0332878BD38DE8C9E646B3F10A029;1278.
 
 
 LaTeX Warning: There were undefined references.
@@ -1745,14 +1755,14 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 35536 strings out of 479005
+ 35546 strings out of 479005
  100000,1977958 words of node,token memory allocated
  792 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 4 dir, 2 glue, 4 kern, 1 glyph, 55 attribute, 79 gl
 ue_spec, 29 attribute_list, 1 write nodes
-   avail lists: 1:4,2:958,3:209,4:45,5:429,6:43,7:6878,8:66,9:445,10:19,11:423
- 53836 multiletter control sequences out of 65536+600000
- 162 fonts using 41727355 bytes
+   avail lists: 1:4,2:1904,3:237,4:45,5:493,6:43,7:6878,8:60,9:992,10:19,11:423
+ 53841 multiletter control sequences out of 65536+600000
+ 162 fonts using 41726867 bytes
  110i,13n,114p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,200000s
 <c:/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texl
 ive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texli
@@ -1762,10 +1772,10 @@ e/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive
 /texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2020/texm
 f-dist/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2020/texmf-dist/fo
 nts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (11 pages, 420125 bytes).
+Output written on main.pdf (13 pages, 425397 bytes).
 
-PDF statistics: 232 PDF objects out of 1000 (max. 8388607)
- 183 compressed objects within 2 object streams
- 49 named destinations out of 1000 (max. 131072)
+PDF statistics: 246 PDF objects out of 1000 (max. 8388607)
+ 195 compressed objects within 2 object streams
+ 54 named destinations out of 1000 (max. 131072)
  105 words of extra memory for PDF output out of 10000 (max. 100000000)
 
