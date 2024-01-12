@@ -8,10 +8,10 @@ Die für zwei unterschiedliche Pulsbreiten wurde die Zählrate in Abhängigkeit 
 \centering
 \caption{Tabelle der Messdaten für die Zählrate in Abhängigkeit von der Verzögerungszeit für eine Pulsbreite von $\SI{18}{\nano\second}$}
 \label{tab:18ns}
-\begin{tblr}{colspec={c c}}
-\toprule
+\begin{tabular}{|c|c|}
+\hline
 $dt[ns]$ & $N$ \\
-\midrule
+\hline
 -26 & 0 \\
 -25 & 2 \\
 -24 & 8 \\
@@ -40,8 +40,8 @@ $dt[ns]$ & $N$ \\
 18 & 1 \\
 20 & 0 \\
 22 & 0 \\
-\bottomrule
-\end{tblr}
+\hline
+\end{tabular}
 \end{table}
 Die Unsicherheiten können aufgrund der zugrundeliegenden Poissonverteilung aus der Zählrate als $\sigma_N=\sqrt{N}$ berechnet werden.
 \begin{figure}
@@ -61,10 +61,10 @@ Die resultierenden Ergebnisse sind in den Abbildungen $\ref{fig:18ns}$ und $\ref
 \centering
 \caption{Tabelle der Messdaten für die Zählrate in Abhängigkeit von der Verzögerungszeit für eine Pulsbreite von $\SI{10}{\nano\second}$}
 \label{tab:10ns}
-\begin{tblr}{colspec={c c}}
-\toprule
+\begin{tabular}{|c|c|}
+\hline
 $dt[ns]$ & $N$ \\
-\midrule
+\hline
 -26 & 2 \\
 -25 & 1 \\
 -24 & 1 \\
@@ -93,8 +93,8 @@ $dt[ns]$ & $N$ \\
 18 & 1 \\
 20 & 0 \\
 22 & 0 \\
-\bottomrule
-\end{tblr}
+\hline
+\end{tabular}
 \end{table}
 Für beide Pulsbreiten wurde die konstante Messrate auf dem sichtbaren Plateau und aus dieser die jeweiligen Halbwertsbreiten $t_{HWB}$ bestimmt. Die Messdaten befinden sich in den Tabellen $\ref{tab:18ns}$ und $\ref{10ns}$. Um diese zu ermitteln wird lineare Interpolation zwischen den beiden einschließenden Punkten der Messung verwendet. Für eine Pulsbreite von $\SI{18}{\nano\second}$ ergibt dies:
 \begin{gather}
@@ -120,10 +120,10 @@ Um die Kanäle des MCA für die Messung sinnvoll in eine Zerfallsdauer übersetz
 \centering
 \caption{Messdaten für die Kalibrierung des MCA}
 \label{tab:MCA}
-\begin{tblr}{colspec={c c}}
-\toprule
+\begin{tabular}{|c|c|}
+\hline
 $t[\mu s]$ & $Kanal$
-\midrule
+\hline
 0,5 & 4 \\
 1 & 15 \\
 1,5 & 26;27 \\
@@ -140,8 +140,8 @@ $t[\mu s]$ & $Kanal$
 7 & 151;152 \\
 7,5 & 162;163 \\
 8 & 174;175 \\
-\bottomrule
-\end{tblr}
+\hline
+\end{tabular}
 \end{table}
 Bei mehreren betroffenen Kanälen wurde der Mittelwert gebildet. Die korrespondierenden Messwerte finden sich in Tabelle $\ref{tab:MCA}$.
 \begin{figure}
