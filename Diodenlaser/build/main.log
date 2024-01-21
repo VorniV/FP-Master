@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.10.12)  11 DEC 2023 12:39
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.10.12)  14 DEC 2023 11:31
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1461,68 +1461,137 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
 \openout4 = main.toc
  [2
 
-] (./content/theorie.tex) (./content/durchfuehrung.tex
-<plots/setup_threshold.png, id=43, 1896.08376pt x 902.37125pt>
+] (./content/theorie.tex
+<Bandschema.png, id=52, 420.57124pt x 251.94125pt>
+File: Bandschema.png Graphic file (type png)
+<use Bandschema.png>
+Package luatex.def Info: Bandschema.png  used on input line 9.
+(luatex.def)             Requested size: 334.60571pt x 200.4461pt.
+ [3<./Bandschema.png>]
+<p-n-Übergang.png, id=66, 293.59688pt x 177.16188pt>
+File: p-n-Übergang.png Graphic file (type png)
+<use p-n-Übergang.png>
+Package luatex.def Info: p-n-Übergang.png  used on input line 24.
+(luatex.def)             Requested size: 209.12778pt x 126.1913pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Littrow Aufbau.png, id=70, 523.45563pt x 211.79124pt>
+File: Littrow Aufbau.png Graphic file (type png)
+<use Littrow Aufbau.png>
+Package luatex.def Info: Littrow Aufbau.png  used on input line 33.
+(luatex.def)             Requested size: 334.60571pt x 135.38434pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4]
+<Diodenlaser Verstärkungsfaktoren.png, id=79, 474.27188pt x 344.78813pt>
+File: Diodenlaser Verstärkungsfaktoren.png Graphic file (type png)
+<use Diodenlaser Verstärkungsfaktoren.png>
+Package luatex.def Info: Diodenlaser Verstärkungsfaktoren.png  used on input line 43.
+(luatex.def)             Requested size: 334.60571pt x 243.2598pt.
+
+
+LaTeX Warning: Reference `fig:Verstärkung' on page 5 undefined on input line 45.
+
+
+LaTeX Warning: Reference `fig:Verstärkung' on page 5 undefined on input line 47.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:Verstärkung' on page 5 undefined on input line 51.
+
+<Mode-hopping.png, id=82, 520.94624pt x 402.00188pt>
+File: Mode-hopping.png Graphic file (type png)
+<use Mode-hopping.png>
+Package luatex.def Info: Mode-hopping.png  used on input line 54.
+(luatex.def)             Requested size: 250.95587pt x 193.65797pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Rubidium Hyperfeinstruktur.png, id=86, 432.11438pt x 223.33438pt>
+File: Rubidium Hyperfeinstruktur.png Graphic file (type png)
+<use Rubidium Hyperfeinstruktur.png>
+Package luatex.def Info: Rubidium Hyperfeinstruktur.png  used on input line 62.
+(luatex.def)             Requested size: 188.21371pt x 97.27576pt.
+<Rubidium Absorptionsspektrum.png, id=87, 407.5225pt x 196.735pt>
+File: Rubidium Absorptionsspektrum.png Graphic file (type png)
+<use Rubidium Absorptionsspektrum.png>
+Package luatex.def Info: Rubidium Absorptionsspektrum.png  used on input line 63.
+(luatex.def)             Requested size: 188.21371pt x 90.86241pt.
+[5<./p-n-Übergang.png><./Littrow Aufbau.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./content/durchfuehrung.tex [6<./Diodenlaser Verstärkungsfaktoren.png>] [7<./Mode-hopping.png><./Rubidium Hyperfeinstruktur.png><./Rubidium Absorptionsspektrum.png>]
+<plots/setup_threshold.png, id=123, 1896.08376pt x 902.37125pt>
 File: plots/setup_threshold.png Graphic file (type png)
 <use plots/setup_threshold.png>
 Package luatex.def Info: plots/setup_threshold.png  used on input line 32.
 (luatex.def)             Requested size: 418.25555pt x 199.0455pt.
- [3]
-<plots/setup_substraction.png, id=53, 1795.70876pt x 708.6475pt>
+ [8<./plots/setup_threshold.png>]
+<plots/setup_substraction.png, id=136, 1795.70876pt x 708.6475pt>
 File: plots/setup_substraction.png Graphic file (type png)
 <use plots/setup_substraction.png>
 Package luatex.def Info: plots/setup_substraction.png  used on input line 55.
 (luatex.def)             Requested size: 418.25555pt x 165.0508pt.
-) (./content/auswertung.tex [4<./plots/setup_threshold.png>] [5<./plots/setup_substraction.png>]
-<plots/Schwellstrom_1.jpg, id=72, 4047.12pt x 1915.155pt>
+) (./content/auswertung.tex [9<./plots/setup_substraction.png>]
+<plots/Schwellstrom_1.jpg, id=146, 4047.12pt x 1915.155pt>
 File: plots/Schwellstrom_1.jpg Graphic file (type jpg)
 <use plots/Schwellstrom_1.jpg>
 Package luatex.def Info: plots/Schwellstrom_1.jpg  used on input line 17.
 (luatex.def)             Requested size: 204.94751pt x 96.96149pt.
-<plots/Schwellstrom_2.jpg, id=73, 4047.12pt x 1915.155pt>
+<plots/Schwellstrom_2.jpg, id=147, 4047.12pt x 1915.155pt>
 File: plots/Schwellstrom_2.jpg Graphic file (type jpg)
 <use plots/Schwellstrom_2.jpg>
 Package luatex.def Info: plots/Schwellstrom_2.jpg  used on input line 22.
 (luatex.def)             Requested size: 204.94751pt x 96.96149pt.
-<plots/Fluoreszenz_1.jpg, id=77, 4047.12pt x 1915.155pt>
-File: plots/Fluoreszenz_1.jpg Graphic file (type jpg)
-<use plots/Fluoreszenz_1.jpg>
-Package luatex.def Info: plots/Fluoreszenz_1.jpg  used on input line 41.
-(luatex.def)             Requested size: 418.25555pt x 197.89731pt.
-<plots/Absorption_1.jpg, id=78, 4047.12pt x 1915.155pt>
+<plots/Fluoreszenz_1.png, id=151, 953.5625pt x 559.08875pt>
+File: plots/Fluoreszenz_1.png Graphic file (type png)
+<use plots/Fluoreszenz_1.png>
+Package luatex.def Info: plots/Fluoreszenz_1.png  used on input line 41.
+(luatex.def)             Requested size: 292.7776pt x 171.6607pt.
+<plots/Absorption_1.jpg, id=152, 4047.12pt x 1915.155pt>
 File: plots/Absorption_1.jpg Graphic file (type jpg)
 <use plots/Absorption_1.jpg>
 Package luatex.def Info: plots/Absorption_1.jpg  used on input line 50.
 (luatex.def)             Requested size: 204.94751pt x 96.96149pt.
-<plots/Absorption_2.jpg, id=79, 4047.12pt x 1915.155pt>
+<plots/Absorption_2.jpg, id=153, 4047.12pt x 1915.155pt>
 File: plots/Absorption_2.jpg Graphic file (type jpg)
 <use plots/Absorption_2.jpg>
 Package luatex.def Info: plots/Absorption_2.jpg  used on input line 55.
 (luatex.def)             Requested size: 204.94751pt x 96.96149pt.
-) (./content/diskussion.tex [6<./plots/Schwellstrom_1.jpg><./plots/Schwellstrom_2.jpg>] [7<./plots/Fluoreszenz_1.jpg><./plots/Absorption_1.jpg><./plots/Absorption_2.jpg>]) [8] [9] (./build/main.aux)
+) (./content/diskussion.tex [10<./plots/Schwellstrom_1.jpg><./plots/Schwellstrom_2.jpg><./plots/Fluoreszenz_1.png>]) [11<./plots/Absorption_1.jpg><./plots/Absorption_2.jpg>] [12] (./build/main.aux)
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: A61BE86D2B8708A6FA8361ADC06E7360;8382.
+(rerunfilecheck)             Checksum: A9F5F246C5DF7DDA0B1B4283A7490864;14494.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 534492A9E7137467AEEE2BD4A59CF47B;989.
+(rerunfilecheck)             Checksum: E522E09009F1CC1CD224B2755062DECD;1432.
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 35508 strings out of 479059
+ 35656 strings out of 479059
  100000,1977958 words of node,token memory allocated
- 635 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 9 attribute, 81 glue_spec, 6 attribute_list, 1 write nodes
-   avail lists: 1:4,2:541,3:167,4:27,5:285,6:33,7:3900,8:25,9:210,10:15,11:250
- 53768 multiletter control sequences out of 65536+600000
- 151 fonts using 54328755 bytes
+ 671 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 19 attribute, 81 glue_spec, 11 attribute_list, 1 write, 1 pdf_action nodes
+   avail lists: 1:2,2:693,3:224,4:59,5:395,6:48,7:7388,8:98,9:267,10:15,11:489
+ 53854 multiletter control sequences out of 65536+600000
+ 154 fonts using 54722091 bytes
  98i,9n,114p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,200000s
-</home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (9 pages, 10869401 bytes).
+</home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on main.pdf (12 pages, 3496174 bytes).
 
-PDF statistics: 188 PDF objects out of 1000 (max. 8388607)
- 141 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 131072)
- 81 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 303 PDF objects out of 1000 (max. 8388607)
+ 222 compressed objects within 3 object streams
+ 48 named destinations out of 1000 (max. 131072)
+ 121 words of extra memory for PDF output out of 10000 (max. 100000000)
 

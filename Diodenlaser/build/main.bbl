@@ -19,6 +19,99 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Atoms}{book}{}
+      \name{author}{1}{}{%
+        {{hash=59654c899d48eff28a4d8063e886fb5f}{%
+           family={Demtröder},
+           familyi={D\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin, Heidelberg}%
+      }
+      \strng{namehash}{59654c899d48eff28a4d8063e886fb5f}
+      \strng{fullhash}{59654c899d48eff28a4d8063e886fb5f}
+      \strng{bibnamehash}{59654c899d48eff28a4d8063e886fb5f}
+      \strng{authorbibnamehash}{59654c899d48eff28a4d8063e886fb5f}
+      \strng{authornamehash}{59654c899d48eff28a4d8063e886fb5f}
+      \strng{authorfullhash}{59654c899d48eff28a4d8063e886fb5f}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Atoms, Molecules and Photons}
+      \field{year}{2018}
+      \verb{doi}
+      \verb https://doi.org/10.1007/978-3-662-55523-1
+      \endverb
+    \endentry
+    \entry{teachspin}{article}{}
+      \list{organization}{1}{%
+        {Fakultät Physik, TU Dortmund}%
+      }
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labeltitlesource}{title}
+      \field{title}{Diode Laser Spectroscopy}
+    \endentry
+    \entry{Semiconductor_Optics}{book}{}
+      \name{author}{1}{}{%
+        {{hash=642ed4d8473842779540dbebde1adaf7}{%
+           family={Klingshirn},
+           familyi={K\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin, Heidelberg}%
+      }
+      \strng{namehash}{642ed4d8473842779540dbebde1adaf7}
+      \strng{fullhash}{642ed4d8473842779540dbebde1adaf7}
+      \strng{bibnamehash}{642ed4d8473842779540dbebde1adaf7}
+      \strng{authorbibnamehash}{642ed4d8473842779540dbebde1adaf7}
+      \strng{authornamehash}{642ed4d8473842779540dbebde1adaf7}
+      \strng{authorfullhash}{642ed4d8473842779540dbebde1adaf7}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Semiconductor Optics}
+      \field{year}{2007}
+      \verb{doi}
+      \verb https://doi.org/10.1007/978-3-540-38347-5
+      \endverb
+    \endentry
+    \entry{ulm}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=70c3235ca7795520906536527e8d6307}{%
+           family={Krükow},
+           familyi={K\bibinitperiod},
+           given={Artjom},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Universität Ulm}%
+      }
+      \strng{namehash}{70c3235ca7795520906536527e8d6307}
+      \strng{fullhash}{70c3235ca7795520906536527e8d6307}
+      \strng{bibnamehash}{70c3235ca7795520906536527e8d6307}
+      \strng{authorbibnamehash}{70c3235ca7795520906536527e8d6307}
+      \strng{authornamehash}{70c3235ca7795520906536527e8d6307}
+      \strng{authorfullhash}{70c3235ca7795520906536527e8d6307}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Laserspektroskopie der Rubidium D2-Linie}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb http://wwwex.physik.uni-ulm.de/lehre/fortgeschrittenenpraktikum/fp/Laserspektroskopie.pdf
+      \endverb
+      \verb{url}
+      \verb http://wwwex.physik.uni-ulm.de/lehre/fortgeschrittenenpraktikum/fp/Laserspektroskopie.pdf
+      \endverb
+    \endentry
     \entry{V60}{manual}{}
       \list{organization}{1}{%
         {Fakultät Phyik, TU Dortmund}%

@@ -446,10 +446,31 @@ INPUT build/main.toc
 OUTPUT build/main.toc
 INPUT ./content/theorie.tex
 INPUT ./content/theorie.tex
-INPUT ./content/durchfuehrung.tex
-INPUT ./content/durchfuehrung.tex
+INPUT ./Bandschema.png
+INPUT ./Bandschema.png
+INPUT ./Bandschema.png
+INPUT ./p-n-Übergang.png
+INPUT ./p-n-Übergang.png
+INPUT ./p-n-Übergang.png
+INPUT ./Littrow Aufbau.png
+INPUT ./Littrow Aufbau.png
+INPUT ./Littrow Aufbau.png
+INPUT ./Diodenlaser Verstärkungsfaktoren.png
+INPUT ./Diodenlaser Verstärkungsfaktoren.png
+INPUT ./Diodenlaser Verstärkungsfaktoren.png
 INPUT /home/jannis/.local/texlive/2020/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc
+INPUT /home/jannis/.local/texlive/2020/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-bold.luc
 INPUT /home/jannis/.local/texlive/2020/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
+INPUT /home/jannis/.local/texlive/2020/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-bold.luc
+INPUT ./Mode-hopping.png
+INPUT ./Mode-hopping.png
+INPUT ./Mode-hopping.png
+INPUT ./Rubidium Hyperfeinstruktur.png
+INPUT ./Rubidium Hyperfeinstruktur.png
+INPUT ./Rubidium Hyperfeinstruktur.png
+INPUT ./Rubidium Absorptionsspektrum.png
+INPUT ./Rubidium Absorptionsspektrum.png
+INPUT ./Rubidium Absorptionsspektrum.png
 INPUT /home/jannis/.local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 INPUT /home/jannis/.local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 INPUT /home/jannis/.local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
@@ -462,6 +483,8 @@ INPUT /home/jannis/.local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symb
 INPUT /home/jannis/.local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /home/jannis/.local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /home/jannis/.local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT ./content/durchfuehrung.tex
+INPUT ./content/durchfuehrung.tex
 INPUT ./plots/setup_threshold.png
 INPUT ./plots/setup_threshold.png
 INPUT ./plots/setup_threshold.png
@@ -476,9 +499,9 @@ INPUT ./plots/Schwellstrom_1.jpg
 INPUT ./plots/Schwellstrom_2.jpg
 INPUT ./plots/Schwellstrom_2.jpg
 INPUT ./plots/Schwellstrom_2.jpg
-INPUT ./plots/Fluoreszenz_1.jpg
-INPUT ./plots/Fluoreszenz_1.jpg
-INPUT ./plots/Fluoreszenz_1.jpg
+INPUT ./plots/Fluoreszenz_1.png
+INPUT ./plots/Fluoreszenz_1.png
+INPUT ./plots/Fluoreszenz_1.png
 INPUT ./plots/Absorption_1.jpg
 INPUT ./plots/Absorption_1.jpg
 INPUT ./plots/Absorption_1.jpg
@@ -488,6 +511,7 @@ INPUT ./plots/Absorption_2.jpg
 INPUT ./content/diskussion.tex
 INPUT ./content/diskussion.tex
 INPUT /home/jannis/.local/texlive/2020/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc
+INPUT /home/jannis/.local/texlive/2020/texmf-var/luatex-cache/generic/fonts/otl/lmromancaps10-regular.luc
 INPUT build/main.aux
 INPUT build/main.aux
 INPUT build/main.toc
