@@ -1,18 +1,18 @@
 [0] Config.pm:312> INFO - This is Biber 2.15
 [1] Config.pm:315> INFO - Logfile is 'build/main.blg'
-[135] biber:330> INFO - === Thu Nov  9, 2023, 09:45:26
-[158] Biber.pm:415> INFO - Reading 'build/main.bcf'
-[271] Biber.pm:949> INFO - Using all citekeys in bib section 0
-[289] Biber.pm:4334> INFO - Processing section 0
-[308] Biber.pm:4523> INFO - Looking for bibtex format file 'lit.bib' for section 0
-[315] bibtex.pm:1682> INFO - LaTeX decoding ...
-[335] bibtex.pm:1494> INFO - Found BibTeX data source 'lit.bib'
-[389] Biber.pm:4523> INFO - Looking for bibtex format file 'programme.bib' for section 0
-[390] Utils.pm:395> WARN - Data source 'programme.bib' is empty, ignoring
-[403] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[405] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[406] Biber.pm:4162> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[407] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
-[413] bbl.pm:651> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
-[416] bbl.pm:754> INFO - Output to build/main.bbl
-[417] Biber.pm:128> INFO - WARNINGS: 1
+[148] biber:330> INFO - === Sun Jan 21, 2024, 15:18:06
+[173] Biber.pm:415> INFO - Reading 'build/main.bcf'
+[307] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[329] Biber.pm:4334> INFO - Processing section 0
+[347] Biber.pm:4523> INFO - Looking for bibtex format file 'lit.bib' for section 0
+[360] bibtex.pm:1682> INFO - LaTeX decoding ...
+[383] bibtex.pm:1494> INFO - Found BibTeX data source 'lit.bib'
+[461] Biber.pm:4523> INFO - Looking for bibtex format file 'programme.bib' for section 0
+[462] Utils.pm:395> WARN - Data source 'programme.bib' is empty, ignoring
+[480] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[481] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[481] Biber.pm:4162> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[482] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
+[486] bbl.pm:651> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
+[492] bbl.pm:754> INFO - Output to build/main.bbl
+[495] Biber.pm:128> INFO - WARNINGS: 1
