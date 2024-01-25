@@ -27,10 +27,10 @@ P=\frac{p^2E}{3k_BT}
 \end{equation*}
 mit dem Dipolmoment eines individuellen Dipols $p$ und dem elektrischen Feld $E$ gibt die durchnittliche Polarisation eines Dipols an. In Kombination mit der Zahl an teilnehmenden Dipolen sowie der Relaxationsrate $1/\tau(T)$ lässt sich nun die Stromdichte in Abhängigkeit von der Temparatur bestimmen:
 \begin{equation}
-I(T)=\frac{N_pp^2E}{3k_BT\tau_0}\exp \left( -\frac{1}{b\tau_0}\int^{T}_{T_0} \frac{dT'}{\tau(T')}\right)\exp\left(-\frac{W}{k_BT}\right)
+I(T)=\frac{N_pp^2E}{3k_BT_1\tau_0}\exp \left( -\frac{1}{b\tau_0}\int^{T}_{T_0} \frac{dT'}{\tau(T')}\right)\exp\left(-\frac{W}{k_BT}\right)
 \label{eq:IStromdichteansatz}
 \end{equation}
-Hierbei beschreibt $N_p$ die Ausgangszahl an ausgerichteten Dipolen und $b$ die Heizrate. 
+Hierbei beschreibt $N_p$ die Ausgangszahl an ausgerichteten Dipolen, $T_1$ die Polarisationstemparatur und $b$ die Heizrate. 
 
 Im Bereich der Kurve vor dem Maximum kann nun die Annahme getroffen werden, dass die Aktivierungsenergie sehr groß ist im Vergleich zur Energie $k_BT$ wodurch das Integral in der vorigen Gleichung verschwindet:
 \begin{equation*}
@@ -38,11 +38,12 @@ Im Bereich der Kurve vor dem Maximum kann nun die Annahme getroffen werden, dass
 \end{equation*}
 Nun ergibt sich durch logarithmieren der Gleichung der Zusammenhang:
 \begin{equation}
-\ln(I)=\frac{W}{k_BT}+\ln\left(\frac{N_pp^2E}{3k_BT\tau_0}\right)
+%\ln(I)=\frac{W}{k_BT}+\ln\left(\frac{N_pp^2E}{3k_BT\tau_0}\right)
+\ln(I)=const-\frac{W}{k_BT}
 \label{equ:1}
 \end{equation}
 Dadurch werden alle unbekannten Konstanten zusammangefasst und durch den linearen Zusammenhang zwischen dem Logarithmus des Stroms und dem Kehrwert der Temparatur lässt sich die Aktivierungsenergie durch eine einfache lineare Regression als Steigung $m$ der Gerade durch $W=mk_B$ berechnen. Das logarithmieren kompensiert außerdem die Tatsache, dass der Strom und nicht die Stromdichte gemessen wurde, da sich beide nach dem logarithmieren nur um eine Konstante unterscheiden.
-\subsection{Polarisationsansatz}
+\subsubsection{Polarisationsansatz}
 Ein weiterer Ansatz lässt sich aus der Betrachtung der Gesamtpolarisation $P(t)$ herleiten. Durch das geschickte Umstellen der Gleichung
 \begin{equation*}
 \frac{dP}{dt}=\frac{P(t)}{\tau(T(t)}
@@ -57,7 +58,7 @@ gewinnen. Aus dieser Gleichung lässt sich durch Einsetzen in die ursprüngliche
 \label{equ:2}
 \end{equation}
 herleiten aus der wiederum per Ausgleichsrechnung die Aktivierungsenergie gewonnen werden kann. Im Gegensatz zu der ersten Formel lässt sich dies auf den gesamten Kurvenverlauf anwenden.
-\section{Bestimmung der Relaxationsdauer}
+\subsection{Bestimmung der Relaxationsdauer}
 Ein weiterer zu bestimmender Parameter ist die Relaxationsdauer $\tau_0$. Um diese zu bestimmen wird ausgenutzt, dass die Änderung des Stroms am Maximum bei der Temparatur $T_{max}$ verschwindet. Durch ableiten von Gleichung $\ref{eq:IStromdichteansatz}$ ergibt sich die Formel
 \begin{equation}
 \tau_0=\frac{k_BT_{max}^2}{Wb}\exp\left(-\frac{W}{k_BT_{max}}\right)

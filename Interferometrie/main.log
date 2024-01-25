@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/W32TeX)  (format=lualatex 2020.11.30)  25 JAN 2024 23:53
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/W32TeX)  (format=lualatex 2020.11.30)  25 JAN 2024 23:09
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -583,16 +583,21 @@ Package babel Info: Non-standard hyphenation setup on input line 117.
 (c:/texlive/2020/texmf-dist/tex/generic/babel/luababel.def
 \bbl@attr@locale=\attribute4
 ))
-(c:/texlive/2020/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
-Package babel Info: \l@canadian = using hyphenrules for english
-(babel)             (\language0) on input line 102.
-Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language22) on input line 105.
-Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language22) on input line 108.
-))
-(c:/texlive/2020/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+(c:/texlive/2020/texmf-dist/tex/generic/babel-german/ngerman.ldf
+Language: ngerman 2020/07/21 v2.12 German support for babel (post-1996 orthograp
+hy)
+
+(c:/texlive/2020/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2020/07/21 v2.12 German support for babel (post-1996 orthogra
+phy)
+Package babel Info: Making " an active character on input line 121.
+
+(c:/texlive/2020/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-de-1996.tex
+UTF-8 German hyphenation patterns (reformed orthography)
+(c:/texlive/2020/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-de-1996.tex
+
+German Hyphenation Patterns (Reformed Orthography, 2006) `dehyphn-x' 2019-04-04
+ (WL)))))) (c:/texlive/2020/texmf-dist/tex/latex/unicode-math/unicode-math.sty
 Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
 
 (c:/texlive/2020/texmf-dist/tex/latex/unicode-math/unicode-math-luatex.sty
@@ -1394,7 +1399,7 @@ File: biblatex.cfg
 ))
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of KOMA-Script class, that doesn't
-(scrhack)             need that hack, on input line 125.
+(scrhack)             need that hack, on input line 127.
 
 (c:/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
@@ -1498,44 +1503,41 @@ Package csquotes Info: ... found 'babel' package.
  (./main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-Package scrbase Info: activating english \contentsname on input line 6.
-Package scrbase Info: activating english \listfigurename on input line 6.
-Package scrbase Info: activating english \listtablename on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  TU/LatinModernMath(1)/m/n --> TU/lmr/m/n on input line 6
-.
+(Font)                  TU/LatinModernMath(1)/m/n --> TU/lmr/m/n on input line 1
+1.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 6.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 6.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 6.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 6.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 6.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 6.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 11.
 
 (c:/texlive/2020/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
@@ -1545,7 +1547,7 @@ glish.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
 
-Package chemgreek Info: Activating mapping `fontspec' on line 6.
+Package chemgreek Info: Activating mapping `fontspec' on line 11.
 
  (c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1580,14 +1582,14 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 6.
+LaTeX Info: Redefining \microtypecontext on input line 11.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 6.
+LaTeX Info: Redefining \showhyphens on input line 11.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
@@ -1596,12 +1598,23 @@ Package microtype Info: No adjustment of kerning.
 File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mode
 rn Roman (RS)
 )
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
 
-(c:/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+File: ngerman.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
 )
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+))
 Package biblatex Info: LuaTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
@@ -1612,9 +1625,9 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 
 No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 6.
-Package biblatex Info: Reference segment=0 on input line 6.
-Package hyperref Info: Link coloring OFF on input line 6.
+Package biblatex Info: Reference section=0 on input line 11.
+Package biblatex Info: Reference segment=0 on input line 11.
+Package hyperref Info: Link coloring OFF on input line 11.
 (c:/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1626,9 +1639,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count460
 )
-LaTeX Info: Redefining \ref on input line 6.
-LaTeX Info: Redefining \pageref on input line 6.
-LaTeX Info: Redefining \nameref on input line 6.
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LatinModernMath' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -1653,17 +1666,17 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 14.40152pt on input line 9.
+(Font)              scaled to size 14.40152pt on input line 14.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 9.
+(Font)              scaled to size 10.00107pt on input line 14.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 9.
+(Font)              scaled to size 7.00075pt on input line 14.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 14.39845pt on input line 9.
+(Font)              scaled to size 14.39845pt on input line 14.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 9.
+(Font)              scaled to size 9.99893pt on input line 14.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 9.
+(Font)              scaled to size 6.99925pt on input line 14.
  [1
 
 {c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -1677,102 +1690,119 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
 
 ]
 (./content/theorie.tex
-<Depolarisationsstrom.png, id=56, 252.44313pt x 248.42813pt>
-File: Depolarisationsstrom.png Graphic file (type png)
-<use Depolarisationsstrom.png>
-Package luatex.def Info: Depolarisationsstrom.png  used on input line 16.
-(luatex.def)             Requested size: 209.12778pt x 205.80484pt.
+<PBSC.png, id=58, 230.8625pt x 162.6075pt>
+File: PBSC.png Graphic file (type png)
+<use PBSC.png>
+Package luatex.def Info: PBSC.png  used on input line 18.
+(luatex.def)             Requested size: 250.95587pt x 176.75978pt.
 
 
-LaTeX Warning: Citation 'fuller' on page 3 undefined on input line 17.
+LaTeX Warning: Citation 'Hecht_2018' on page 3 undefined on input line 19.
 
 
-LaTeX Warning: Citation 'fuller' on page 3 undefined on input line 17.
+LaTeX Warning: Citation 'Hecht_2018' on page 3 undefined on input line 19.
 
-[3] [4<./Depolarisationsstrom.PNG>]) (./content/durchfuehrung.tex
-<Dipolrelaxation Versuchsanordnung.png, id=77, 552.0625pt x 407.02063pt>
-File: Dipolrelaxation Versuchsanordnung.png Graphic file (type png)
-<use Dipolrelaxation Versuchsanordnung.png>
-Package luatex.def Info: Dipolrelaxation Versuchsanordnung.png  used on input li
-ne 7.
-(luatex.def)             Requested size: 418.25555pt x 308.38245pt.
+[3] [4<./PBSC.PNG>] [5]
+
+LaTeX Warning: Citation 'sample' on page 6 undefined on input line 79.
+
+) (./content/durchfuehrung.tex
+<Sagnac-Interferometer.png, id=86, 417.56pt x 349.305pt>
+File: Sagnac-Interferometer.png Graphic file (type png)
+<use Sagnac-Interferometer.png>
+Package luatex.def Info: Sagnac-Interferometer.png  used on input line 6.
+(luatex.def)             Requested size: 334.60571pt x 279.92407pt.
 
 
-LaTeX Warning: Citation 'anleitung' on page 5 undefined on input line 8.
+LaTeX Warning: Citation 'V64' on page 6 undefined on input line 7.
 
 
-LaTeX Warning: Citation 'anleitung' on page 5 undefined on input line 8.
+LaTeX Warning: Citation 'V64' on page 6 undefined on input line 7.
 
-[5] [6<./Dipolrelaxation Versuchsanordnung.PNG>]) (./content/auswertung.tex
+[6<./Sagnac-Interferometer.PNG>]) (./content/auswertung.tex
+
+LaTeX Warning: Reference `' on page 7 undefined on input line 8.
+
 [7]
-<plots/mitunter_1.5grad.pdf, id=101, 462.528pt x 346.896pt>
-File: plots/mitunter_1.5grad.pdf Graphic file (type pdf)
-<use plots/mitunter_1.5grad.pdf>
-Package luatex.def Info: plots/mitunter_1.5grad.pdf  used on input line 31.
-(luatex.def)             Requested size: 204.94751pt x 153.70923pt.
-<plots/mitunter_2grad.pdf, id=102, 462.528pt x 346.896pt>
-File: plots/mitunter_2grad.pdf Graphic file (type pdf)
-<use plots/mitunter_2grad.pdf>
-Package luatex.def Info: plots/mitunter_2grad.pdf  used on input line 36.
-(luatex.def)             Requested size: 204.94751pt x 153.70923pt.
-<plots/ohneunter_1.5grad.pdf, id=103, 462.528pt x 346.896pt>
-File: plots/ohneunter_1.5grad.pdf Graphic file (type pdf)
-<use plots/ohneunter_1.5grad.pdf>
-Package luatex.def Info: plots/ohneunter_1.5grad.pdf  used on input line 47.
-(luatex.def)             Requested size: 204.94751pt x 153.70923pt.
-<plots/ohneunter_2grad.pdf, id=104, 462.528pt x 346.896pt>
-File: plots/ohneunter_2grad.pdf Graphic file (type pdf)
-<use plots/ohneunter_2grad.pdf>
-Package luatex.def Info: plots/ohneunter_2grad.pdf  used on input line 52.
-(luatex.def)             Requested size: 204.94751pt x 153.70923pt.
- [8<./plots/mitunter_1.5grad.pdf><./plots/mitunter_2grad.pdf>] [9<./plots/ohneun
-ter_1.5grad.pdf><./plots/ohneunter_2grad.pdf>]
-<plots/asc_1.5grad.pdf, id=289, 462.528pt x 346.896pt>
-File: plots/asc_1.5grad.pdf Graphic file (type pdf)
-<use plots/asc_1.5grad.pdf>
-Package luatex.def Info: plots/asc_1.5grad.pdf  used on input line 114.
-(luatex.def)             Requested size: 204.94751pt x 153.70923pt.
-<plots/asc_2grad.pdf, id=290, 462.528pt x 346.896pt>
-File: plots/asc_2grad.pdf Graphic file (type pdf)
-<use plots/asc_2grad.pdf>
-Package luatex.def Info: plots/asc_2grad.pdf  used on input line 119.
-(luatex.def)             Requested size: 204.94751pt x 153.70923pt.
-<plots/int_1.5grad.pdf, id=294, 462.528pt x 346.896pt>
-File: plots/int_1.5grad.pdf Graphic file (type pdf)
-<use plots/int_1.5grad.pdf>
-Package luatex.def Info: plots/int_1.5grad.pdf  used on input line 151.
-(luatex.def)             Requested size: 204.94751pt x 153.70923pt.
-<plots/int_2grad.pdf, id=295, 462.528pt x 346.896pt>
-File: plots/int_2grad.pdf Graphic file (type pdf)
-<use plots/int_2grad.pdf>
-Package luatex.def Info: plots/int_2grad.pdf  used on input line 156.
-(luatex.def)             Requested size: 204.94751pt x 153.70923pt.
- [10<./plots/asc_1.5grad.pdf><./plots/asc_2grad.pdf>]) (./content/diskussion.te
-x [11<./plots/int_1.5grad.pdf><./plots/int_2grad.pdf>]
+<plots/kontrast_ausgleich.pdf, id=104, 462.528pt x 346.896pt>
+File: plots/kontrast_ausgleich.pdf Graphic file (type pdf)
+<use plots/kontrast_ausgleich.pdf>
+Package luatex.def Info: plots/kontrast_ausgleich.pdf  used on input line 22.
+(luatex.def)             Requested size: 418.25555pt x 313.70677pt.
 
-LaTeX Warning: Citation 'muccillo' on page 12 undefined on input line 4.
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 23.
+
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 23.
+
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 23.
+
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 23.
+
+
+Overfull \hbox (30.92232pt too wide) in paragraph at lines 31--56
+ [][] 
+ []
+
+[8<./plots/kontrast_ausgleich.pdf>]
+
+LaTeX Warning: Reference `' on page 9 undefined on input line 63.
+
+[9]
+
+LaTeX Warning: Reference `' on page 10 undefined on input line 97.
+
+
+LaTeX Warning: Reference `' on page 10 undefined on input line 97.
+
+
+LaTeX Warning: Reference `' on page 10 undefined on input line 111.
 
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 17.
+(Font)              scaled to size 5.00053pt on input line 111.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 17.
-) [12]
+(Font)              scaled to size 4.99947pt on input line 111.
 
-LaTeX Warning: Empty bibliography on input line 25.
+LaTeX Warning: Reference `' on page 10 undefined on input line 111.
 
-(./main.aux)
+
+Overfull \hbox (11.47221pt too wide) in paragraph at lines 113--138
+ [][] 
+ []
+
+[10]
+
+LaTeX Warning: Reference `' on page 11 undefined on input line 145.
+
+[11]
+<plots/lorentz_lorenz.pdf, id=183, 462.528pt x 346.896pt>
+File: plots/lorentz_lorenz.pdf Graphic file (type pdf)
+<use plots/lorentz_lorenz.pdf>
+Package luatex.def Info: plots/lorentz_lorenz.pdf  used on input line 184.
+(luatex.def)             Requested size: 418.25555pt x 313.70677pt.
+) (./content/diskussion.tex [12<./plots/lorentz_lorenz.pdf>]
+
+LaTeX Warning: Citation 'Brechungsindex' on page 13 undefined on input line 10.
+
+
+LaTeX Warning: Citation 'Brechungsindex' on page 13 undefined on input line 15.
+
+)
+
+LaTeX Warning: Empty bibliography on input line 23.
+
+[13] (./main.aux)
 
 Package rerunfilecheck Warning: File `main.aux' has changed. Rerun.
 
 Package rerunfilecheck Info: Checksums for `main.aux':
-(rerunfilecheck)             Before: F3052589A8E9C45B30B2C7AA3513F39B;13676
-(rerunfilecheck)             After:  31867F5FC1C07614CD60DD5155ECFC80;13696.
-
-Package rerunfilecheck Warning: File `main.toc' has changed. Rerun.
-
-Package rerunfilecheck Info: Checksums for `main.toc':
-(rerunfilecheck)             Before: CB53499E6BCB83A0DB26EFF711972336;1594
-(rerunfilecheck)             After:  F0D58FCC7E47260F3797C87C813B54FA;1604.
+(rerunfilecheck)             Before: 564AFFFC982BEA50F461245296F5DCE8;13990
+(rerunfilecheck)             After:  65A7FDBB118D439DF2EA8CB86C256898;14117.
+Package rerunfilecheck Info: File `main.toc' has not changed.
+(rerunfilecheck)             Checksum: A84F410A3568A4B4972B4AE07A498FD0;1613.
 
 LaTeX Warning: There were undefined references.
 
@@ -1787,17 +1817,16 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 35613 strings out of 479005
- 100000,1977958 words of node,token memory allocated
- 839 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 dir, 2 glue, 4 kern, 1 glyph, 69 attribute, 79 gl
-ue_spec, 36 attribute_list, 1 write nodes
-   avail lists: 1:3,2:907,3:251,4:44,5:436,6:53,7:6108,8:64,9:596,10:14,11:406
- 53894 multiletter control sequences out of 65536+600000
- 162 fonts using 41727355 bytes
- 110i,14n,114p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,200000s
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.5'
+ 35895 strings out of 479005
+ 156270,1977958 words of node,token memory allocated
+ 822 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 4 dir, 2 glue, 4 kern, 1 glyph, 65 attribute, 79 gl
+ue_spec, 34 attribute_list, 1 write nodes
+   avail lists: 1:11,2:7711,3:427,4:129,5:3246,6:57,7:9925,8:80,9:3551,10:14,11:
+793
+ 54179 multiletter control sequences out of 65536+600000
+ 294 fonts using 78231135 bytes
+ 110i,29n,114p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,200000s
 <c:/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/te
 xlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/tex
 live/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/202
@@ -1807,10 +1836,10 @@ texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2020/texmf
 -dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2020/texmf-dist
 /fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2020/texmf-dist/fonts/op
 entype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (12 pages, 1083355 bytes).
+Output written on main.pdf (13 pages, 355733 bytes).
 
-PDF statistics: 670 PDF objects out of 1000 (max. 8388607)
- 325 compressed objects within 4 object streams
- 50 named destinations out of 1000 (max. 131072)
- 137 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 357 PDF objects out of 1000 (max. 8388607)
+ 246 compressed objects within 3 object streams
+ 54 named destinations out of 1000 (max. 131072)
+ 145 words of extra memory for PDF output out of 10000 (max. 100000000)
 
