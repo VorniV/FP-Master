@@ -23,7 +23,8 @@ A polarizing beam-splitter cube (PBSC) can be used to split light with a certain
 \subsection{Visibility}
 A metric to describe the quality of an interference pattern is the so called visibility:
 \begin{equation}
-V=\frac{I_{max}-I_{min}}{I_{max}+I_{min}}
+    V=\frac{I_{max}-I_{min}}{I_{max}+I_{min}}
+    \label{eq:K}
 \end{equation}
 which quantifies the contrast between the minimum Intensity $I_{min}$ and maximum Intensity $I_{max}$. The intensity is proportional to the square of the electric field strength $I\propto E^2$. 
 
@@ -60,7 +61,8 @@ with the phase shift $\Delta \phi$ depending on the rotation angle of the glass 
 With the vacuum-wavelength of light $\lambda_{vac}$ and the thickness of the glass plate $D$. Because the plates in the glass holder are already rotated by an angle of $\pm10°$ the formula for the phase shift has to be slightly changed and results in a linear relationship between the number of Maxima and the rotation angle:
 \begin{gather}
 M=\frac{D}{\lambda_{vac}}\frac{n_{glass}-1}{2n_{glass}}((\Theta+10°)^2-(\Theta-10°)^2)=\frac{D}{\lambda_{vac}}\frac{n_{glass}-1}{n_{glass}}2\Theta*10° \\
-\iff n=\frac{1}{1-\frac{M\lambda_{vac}}{D2\Theta*10°}}
+    \iff n=\frac{1}{1-\frac{M\lambda_{vac}}{D2\Theta*10°}}
+    \label{eq:n}
 \end{gather}
 \subsection{Refractive index of air}
 The refractive index of air can be determined analogously by placing a gas cell of Length $L$ in the beam. This again results in a phase shift of
@@ -69,11 +71,17 @@ The refractive index of air can be determined analogously by placing a gas cell 
 \end{equation*}
 corresponding to a refractive index of:
 \begin{equation}
-n_{air}=\frac{M\lambda_{vac}}{L}+1
+    n_{air}=\frac{M\lambda_{vac}}{L}+1
+    \label{eq:n_air}
 \end{equation}
-Alternatively the Refractive index of air can also be determined using the Lorentz-Lorentz-Law:
+Alternatively the Refractive index of air can also be determined using the Lorentz-Lorentz-Law. Applying a Taylor series by $n = 1$ a linear dependency can be approximated:
 \begin{equation}
-\frac{n_{air}^2-1}{n_{air}^2+1}=\frac{Ap}{RT}
+    \frac{A \cdot p}{R \cdot T} = \frac{n_{air}^2-1}{n_{air}^2+1} \approx \frac{3}{2} (n - 1)
 \end{equation}
 which describes the relationship between refractive index, pressure $p$ and temparature $T$. In this case $A$ denotes the molrefraction value and $R$ the universal gas constant.
-\cite{sample}
+%\cite{sample}
+The refraction index can therefore be determined as
+\begin{equation}
+    n \approx \frac{3}{2} \frac{A \cdot p}{R \cdot T} + 1
+    \label{eq:n_glas_taylor}
+\end{equation}
