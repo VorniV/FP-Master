@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.10.12)  3 JAN 2024 14:36
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.10.12)  28 FEB 2024 10:15
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1401,12 +1401,13 @@ Package biblatex Info: Automatic encoding selection.
 
 \openout3 = main.bcf
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
- (./build/main.bbl)
+Package biblatex Info: ... file 'main.bbl' not found.
+
+No file main.bbl.
 Package biblatex Info: Reference section=0 on input line 6.
 Package biblatex Info: Reference segment=0 on input line 6.
 Package hyperref Info: Link coloring OFF on input line 6.
- (/home/jannis/.local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+(/home/jannis/.local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/home/jannis/.local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -1459,38 +1460,21 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
 \tf@toc=\write4
 
 \openout4 = main.toc
- [2
+\hidden=\box67
 
-] (./content/theorie.tex [3]) (./content/durchfuehrung.tex
-<plots/V01_Aufbau.png, id=51, 1036.62282pt x 1740.5025pt>
-File: plots/V01_Aufbau.png Graphic file (type png)
-<use plots/V01_Aufbau.png>
-Package luatex.def Info: plots/V01_Aufbau.png  used on input line 17.
-(luatex.def)             Requested size: 292.7776pt x 491.58664pt.
- [4] [5<./plots/V01_Aufbau.png>]) (./content/auswertung.tex [6]) (./content/diskussion.tex [7]) [8] [9] (./build/main.aux)
-Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 902CC8C69C7A950322F5F1CE0BD060AB;6277.
-Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: C8882B4EF1378B775DDA9B0F1E32E7E5;955.
-Package logreq Info: Writing requests to 'main.run.xml'.
-
-\openout1 = main.run.xml
-)
+! Undefined control sequence.
+<argument> \vbox {\tablefocontents 
+                        }
+l.16 ...dden}\sbox{\hidden}{\vbox{\tablefocontents}}
+                                                  
 
 Here is how much of LuaTeX's memory you used:
- 35428 strings out of 479059
+ 34999 strings out of 479059
  100000,1977958 words of node,token memory allocated
- 713 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 4 dir, 2 glue, 4 kern, 1 glyph, 27 attribute, 80 glue_spec, 15 attribute_list, 1 write nodes
-   avail lists: 1:3,2:464,3:152,4:43,5:429,6:32,7:6876,8:44,9:278,10:19,11:423
- 53725 multiletter control sequences out of 65536+600000
- 151 fonts using 54328083 bytes
- 98i,8n,114p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,200000s
-</home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (9 pages, 335269 bytes).
-
-PDF statistics: 181 PDF objects out of 1000 (max. 8388607)
- 138 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 131072)
- 81 words of extra memory for PDF output out of 10000 (max. 100000000)
-
+ 7536 words of node memory still in use:
+   97 hlist, 1 vlist, 2 rule, 29 disc, 15 local_par, 13 dir, 18 math, 164 glue, 43 kern, 85 penalty, 349 glyph, 421 attribute, 78 glue_spec, 212 attribute_list, 2 temp, 1 write, 14 pdf_start_link, 14 pdf_end_link, 1 pdf_dest, 14 pdf_action nodes
+   avail lists: 1:4,3:1,4:9,5:21,7:71,9:1,10:6,11:14
+ 53377 multiletter control sequences out of 65536+600000
+ 101 fonts using 36162019 bytes
+ 98i,6n,114p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!
