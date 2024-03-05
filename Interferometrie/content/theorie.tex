@@ -4,13 +4,13 @@ In this experiment a Sagnac-interferometer is used in combination with a HeNe-la
 \label{sec:Theorie}
 intererometry uses the effect of interference between lightwaves to make measurements for example regarding properties of certain materials like in this case the refractive indices of glass and air. To achieve interference several factors have to be taken into consideration, which will be discussed in the following chapter.
 \subsection{Coherence}
-When trying to observe interference between lightwaves it is important to consider, that interference occurs only with coherent light. This means, the different lightwaves have to have a constant phase relationship with each other to make interference possible. This property of light is called coherence and is distinguished between spatial and temporal coherence. Real lightsources emitt light in a certain spectrum and therefore constantly shift their phase, which means that a constant phase relation can only be achieved within a certain timeframe. Perfect monochromatic light theoretically is perfectly temporally coherent but can not be achieved in reality. Spatial coherence is achieved when wavefronts do not shift their phase difference due to spatial differences between the propagating wavefronts. An example of spatially incoherent light is given in the case of two unparallel wavefronts. 
+When trying to observe interference between lightwaves it is important to consider, that interference occurs only with coherent light. This means, the different lightwaves have to have a constant phase relationship with each other to make interference possible. This property of light is called coherence and is distinguished between spatial and temporal coherence. Real lightsources emitt light in a certain spectrum and therefore constantly shift their phase, which means that a constant phase relation can only be achieved within a certain timeframe. Perfect monochromatic light theoretically is perfectly temporally coherent but can not be achieved in reality. Spatial coherence is achieved when wavefronts do not shift their phase difference due to spatial differences between the propagating wavefronts.% An example of spatially incoherent light is given in the case of two unparallel wavefronts. 
 
 Coherence is a phenomenon that exists on a certain scale, meaning that light can not only be incoherent or perfectly coherent. This is quantified by the Degree of coherence:
 \begin{equation}
  \tilde{\gamma}_{12}(\tau)=\frac{\bigl<\tilde{E}_1(t+\tau)\tilde{E}^*_2(t)\bigr>_T}{\sqrt{\bigl<|\tilde{E}_1|^2\bigr>\bigl<|\tilde{E}_2|^2\bigr>}}
 \end{equation}
-with the electric fields $E_1$, $E_2$ and the relative offset $\tau$. The degree of coherence takes up values between $1$ and $0$ with $\gamma_{12}=1$ indicating perfect coherence.
+with the electric field at two points $E_1$, $E_2$ and the relative offset $\tau$. Here $\bigl<...\bigr>_T$ denotes the time average over an Intervall $T$. The degree of coherence takes up values between $1$ and $0$ with $\gamma_{12}=1$ indicating perfect coherence.
 \subsection{Polarisation}
 Another important factor in interference of transversal waves like lightwaves is the polarisation of the wave. This describes the orientation of the plane in which the electric filed oscillates. The most important distinction in terms of polarisation is between linear and circluar/elliptical polarisation where the electric field vector is not polarised in a single plane but rotates. Linearly polarised light can be described by the polarization angle and generated from unpolarized light by using a polarisation filter, which only allows the component with the corresponding polarization angle to pass. Linearly polarized lightbeams can only produce interference if they have the same polarization angle. 
 \begin{figure}
@@ -59,8 +59,8 @@ with the phase shift $\Delta \phi$ depending on the rotation angle of the glass 
 \end{equation}
 With the vacuum-wavelength of light $\lambda_{vac}$ and the thickness of the glass plate $D$. Because the plates in the glass holder are already rotated by an angle of $\pm10°$ the formula for the phase shift has to be slightly changed and results in a linear relationship between the number of Maxima and the rotation angle:
 \begin{gather}
-M=\frac{D}{\lambda_{vac}}\frac{n_{glass}-1}{2n_{glass}}((\Theta+10°)^2-(\Theta-10°)^2)=\frac{D}{\lambda_{vac}}\frac{n_{glass}-1}{n_{glass}}2\Theta*10° \\
-\iff n=\frac{1}{1-\frac{M\lambda_{vac}}{D2\Theta*10°}}
+M=\frac{D}{\lambda_{vac}}\frac{n_{glass}-1}{2n_{glass}}((\Theta+\frac{\pi}{18})^2-(\Theta-\frac{\pi}{18})^2)=\frac{D}{\lambda_{vac}}\frac{n_{glass}-1}{n_{glass}}2\Theta\frac{\pi}{18} \\
+\iff n=\frac{1}{1-\frac{M\lambda_{vac}}{D2\Theta\frac{\pi}{18}}}
 \end{gather}
 \subsection{Refractive index of air}
 The refractive index of air can be determined analogously by placing a gas cell of Length $L$ in the beam. This again results in a phase shift of

@@ -1,9 +1,9 @@
 \newpage
 \section{Auswertung}
 \label{sec:Auswertung}
-Die gesmate Messdauer der Hauptmessung Betrug $T=\SI{257100}{\second}$. In dieser Zeit wurden $N_{Start}=3857582$ und $N_{Stop}=738$ Stopsignale gemessen. Dies ergibt eine Eventrate von $f=\frac{N_{Start}}{T}=\SI{15,004\pm0,008}{\hertz}$
+Die gesmate Messdauer der Hauptmessung Betrug $T=\SI{257100}{\second}$. In dieser Zeit wurden $N_{\mathrm{Start}}=3857582$ und $N_{Stop}=738$ Stopsignale gemessen. Dies ergibt eine Eventrate von $f=\frac{N_{\mathrm{Start}}}{T}=\SI{15,004\pm0,008}{\hertz}$
 \subsection{Wahl der Verzögerungszeit}
-Die für zwei unterschiedliche Pulsbreiten wurde die Zählrate in Abhängigkeit von der Verzögerungszeit zwischen beiden Komponenten der Koinzidenzschaltung gemessen. Die Messdauer pro Verzögerungszeit Betrug dabei $T_{mess}=5s$. 
+Die für zwei unterschiedliche Pulsbreiten wurde die Zählrate in Abhängigkeit von der Verzögerungszeit zwischen beiden Komponenten der Koinzidenzschaltung gemessen. Die Messdauer pro Verzögerungszeit Betrug dabei $T_{\mathrm{mess}}=\SI{5}{\second}$. 
 \begin{table}
 \centering
 \caption{Tabelle der Messdaten für die Zählrate in Abhängigkeit von der Verzögerungszeit für eine Pulsbreite von $\SI{18}{\nano\second}$}
@@ -46,7 +46,7 @@ $dt[ns]$ & $N$ \\
 Die Unsicherheiten können aufgrund der zugrundeliegenden Poissonverteilung aus der Zählrate als $\sigma_N=\sqrt{N}$ berechnet werden.
 \begin{figure}
 \centering
-\includegraphics[width=0.6\textwidth]{plots/Auflösungszeit_18ns}
+\includegraphics[width=0.6\textwidth]{plots/Auflösungszeit_18ns2}
 \caption{Zählrate in Abhängigkeit von der Verzögerungszeit für eine Pulsbreite von $\SI{18}{\nano\second}$.}
 \label{fig:18ns}
 \end{figure}
@@ -96,22 +96,35 @@ $dt[ns]$ & $N$ \\
 \hline
 \end{tabular}
 \end{table}
-Für beide Pulsbreiten wurde die konstante Messrate auf dem sichtbaren Plateau und aus dieser die jeweiligen Halbwertsbreiten $t_{HWB}$ bestimmt. Die Messdaten befinden sich in den Tabellen $\ref{tab:18ns}$ und $\ref{tab:10ns}$. Um diese zu ermitteln wird lineare Interpolation zwischen den beiden einschließenden Punkten der Messung verwendet. Für eine Pulsbreite von $\SI{18}{\nano\second}$ ergibt dies:
+Für beide Pulsbreiten wurde die konstante Messrate auf dem sichtbaren Plateau und aus dieser die jeweiligen Halbwertsbreiten $t_{\mathrm{HWB}}$ bestimmt. Die bestimmten werte für die Plateaus lauten:
 \begin{gather}
-dt_{18ns,links}=\SI{-19,125}{\nano\second} \\
-dt_{18ns,rechts}=\SI{9,47}{\nano\second} \\
-t_{HWB,18ns}=\SI{28,59}{\nano\second} 
+f_{\mathrm{Plateau},\SI{18}{\nano\second}}=\SI{10,912\pm0,621}{\hertz} \\
+f_{\mathrm{Plateau},\SI{10}{\nano\second}}=\SI{12,246\pm0,616}{\hertz}
+\end{gather}
+Die Messdaten befinden sich in den Tabellen $\ref{tab:18ns}$ und $\ref{tab:10ns}$. Um die Halbwertsbreiten zu ermitteln wird für jeweils an die linke und rechte Flanke ein linearer Fit angepasst.
+Die Fitparameter lauten:
+\begin{gather}
+f_{\mathrm{links},\SI{10}{\nano\second}}=(1,1\pm0,21)dt+(18\pm2,61) \\
+f_{\mathrm{rechts},\SI{10}{\nano\second}}=(-1,37\pm0,2)dt+(19,66\pm2,04) \\
+f_{\mathrm{links},\SI{18}{\nano\second}}=(0,95\pm0,05)dt+(24,26\pm0,99) \\
+f_{\mathrm{rechts},\SI{18}{\nano\second}}=(-0,91\pm0,09)dt+(14,46\pm2,61) 
+\end{gather}
+Für eine Pulsbreite von $\SI{18}{\nano\second}$ ergibt dies:
+\begin{gather}
+dt_{\SI{18}{\nano\second},\mathrm{links}}=\SI{-19,853}{\nano\second} \\
+dt_{\SI{18}{\nano\second},\mathrm{rechts}}=\SI{9,522}{\nano\second} \\
+t_{\mathrm{HWB},\SI{18}{\nano\second}}=\SI{29,376}{\nano\second} 
 \end{gather}
 Für die Pulsbreite $\SI{10}{\nano\second}$ resultieren die Ergebnisse:
 \begin{gather}
-dt_{18ns,links}=\SI{-9,696}{\nano\second} \\
-dt_{18ns,rechts}=\SI{9,1}{\nano\second} \\
-t_{HWB,10ns}=\SI{18,796}{\nano\second} 
+dt_{\SI{18}{\nano\second},\mathrm{links}}=\SI{-10,797}{\nano\second} \\
+dt_{\SI{18}{\nano\second},\mathrm{rechts}}=\SI{9,881}{\nano\second} \\
+t_{\mathrm{HWB},\SI{10}{\nano\second}}=\SI{20,678}{\nano\second} 
 \end{gather}
 Daraus lässt sich jeweils die Auflösungszeit $\Delta t$ bestimmen:
 \begin{gather}
-\Delta t_{18ns}=\lvert2*18-t_{HWB,18ns}\rvert=\SI{7,41}{\nano\second} \\
-\Delta t_{10ns}=\lvert2*10-t_{HWB,10ns}\rvert=\SI{1,2}{\nano\second}
+\Delta t_{\SI{18}{\nano\second}}=\lvert2\cdot18-t_{HWB,18ns}\rvert=\SI{6,243}{\nano\second} \\
+\Delta t_{\SI{10}{\nano\second}}=\lvert2\cdot10-t_{HWB,10ns}\rvert=\SI{0,678}{\nano\second}
 \end{gather}
 Für die Hauptmessung wurde die Pulsbreite $\SI{10}{\nano\second}$ verwendet. Aufgrund der Platzierung des Plateaus wurde hier im folgenden eine Verzögerungszeit von $dt=\SI{-2}{\nano\second}$ 
 \subsection{Kalibrierung des Multichannel-Analyzers}
@@ -152,24 +165,24 @@ Bei mehreren betroffenen Kanälen wurde der Mittelwert gebildet. Die korrespondi
 \end{figure}
 An diese Messergebnisse kann ein linearer Fit angepasst werden. Die Messung und der zugehörige Fit sind in Abbildung $\ref{fig:Kanal}$ dargestellt. Die Parameter des Fits lauten:
 \begin{equation}
-t=(0,044\pm4,48*10^{-5})K+(0,331\pm0,0046)
+t=(0,044\pm4,48\cdot10^{-5})K+(0,331\pm0,0046)
 \end{equation}
 mit der Zeit $t$ und dem zugehörigen Kanal $K$.
 \subsection{Berechnung der Untergrundrate}
-Als Zählraten-Experiment unterliegt Zahl der eintreffenden Muonen einer Poissonverteilung. Die Wahrscheinlichkeit, dass bei einer bekannten mittleren Eventrate von $f=\frac{N_{Start}}{T}$ k zusätzliche Myonen während der Suchzeit $T_such$ eintreffen ist daher bestimmt durch
+Als Zählraten-Experiment unterliegt Zahl der eintreffenden Muonen einer Poissonverteilung. Die Wahrscheinlichkeit, dass bei einer bekannten mittleren Eventrate von $f=\frac{N_{\mathrm{Start}}}{T}$ k zusätzliche Myonen während der Suchzeit eintreffen ist daher bestimmt durch
 \begin{equation}
-P(k)=\frac{(T_{such}f)^k}{k!}e^{T_{such}f}
+P(k)=\frac{(T_{S}f)^k}{k!}e^{T_{S}f}
 \end{equation}
 und beträgt somit für ein zusätzliches Myon:
 \begin{equation}
-P(k=1)=0,00012\pm6,113*10^{-8}
+P(k=1)=0,00012\pm6,113\cdot10^{-8}
 \end{equation}
 Mittels dieser Wahrscheinlichkeit kann nun die Untergrundrate berechnet werden. Die Untergrundevents teilen sich dabei gleichmäßig auf alle Kanäle auf:
 \begin{equation}
-U_{poisson}=\frac{N_{Start}*P(1)}{N_{Kanal}}=2,661\pm0,0014
+U_{\mathrm{poisson}}=\frac{N_{\mathrm{Start}}\cdot P(1)}{N_{\mathrm{Kanal}}}=2,661\pm0,0014
 \end{equation}
 \subsection{Bestimmung der Zerfallszeit}
-Die Messdaten des Multichannel-Analyzers aus der Hauptmessung können mit der dafür angefertigten Fitfunktion auf Zerfallszeiten umgerechnet werden. 
+Die Messdaten des Multichannel-Analyzers aus der Hauptmessung können mit der dafür angefertigten Kalibrierung auf Zerfallszeiten umgerechnet werden. 
 \begin{figure}
 \centering
 \includegraphics[width=0.8\textwidth]{plots/Hauptmessung}
@@ -182,10 +195,10 @@ N(t)=N_0e^{-\lambda t}+U_{fit}
 \end{equation}
 angepasst werden. Dabei wurden die Messwerte aus den ersten vier Kanälen aufgrund der unrealistisch sehr niedrigen Zähllraten vernachlässigt, da diese das Ergebnis stark verfälschen. Dieser liefert mit den vorhandenen Messdaten die Parameter:
 \begin{equation}
-(12,396\pm0,902)e^{-(0,589\pm0,079)t}+(0,305\pm0,297)
+N(t)=(12,396\pm0,902)e^{-(0,589\pm0,079)t}+(0,305\pm0,297)
 \end{equation}
 Aus diesen Parametern kann nun die Lebensdauer zu
 \begin{equation}
-\tau=\frac{1}{\lambda}=1.7\pm0,23
+\tau=\frac{1}{\lambda}=\SI{1.7\pm0,23}{\micro\second}
 \end{equation}
 bestimmt werden.

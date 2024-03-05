@@ -10,7 +10,7 @@
 \contentsline {section}{\numberline {3}Auswertung}{7}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Wahl der Verzögerungszeit}{7}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Kalibrierung des Multichannel-Analyzers}{10}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Berechnung der Untergrundrate}{11}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Bestimmung der Zerfallszeit}{11}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Diskussion}{13}{section.4}%
+\contentsline {subsection}{\numberline {3.3}Berechnung der Untergrundrate}{12}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Bestimmung der Zerfallszeit}{12}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Diskussion}{14}{section.4}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

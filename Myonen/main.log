@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/W32TeX)  (format=lualatex 2020.11.30)  12 JAN 2024 18:41
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/W32TeX)  (format=lualatex 2020.11.30)  5 MAR 2024 01:05
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1699,11 +1699,12 @@ Underfull \hbox (badness 3396) in paragraph at lines 9--9
 [][]|\TU/lmr/m/n/10 Tabelle der Mess-daten für die Zählrate in Ab-hängigkeit von der
  []
 
-<plots/Auflösungszeit_18ns.png, id=79, 406.8801pt x 312.2064pt>
-File: plots/Auflösungszeit_18ns.png Graphic file (type png)
-<use plots/Auflösungszeit_18ns.png>
-Package luatex.def Info: plots/Auflösungszeit_18ns.png  used on input line 49.
-(luatex.def)             Requested size: 250.95587pt x 192.56079pt.
+<plots/Auflösungszeit_18ns2.png, id=79, 416.2752pt x 312.2064pt>
+File: plots/Auflösungszeit_18ns2.png Graphic file (type png)
+<use plots/Auflösungszeit_18ns2.png>
+Package luatex.def Info: plots/Auflösungszeit_18ns2.png  used on input line 49.
+
+(luatex.def)             Requested size: 250.95587pt x 188.21613pt.
 <plots/Auflösungszeit_10ns.png, id=80, 416.2752pt x 312.2064pt>
 File: plots/Auflösungszeit_10ns.png Graphic file (type png)
 <use plots/Auflösungszeit_10ns.png>
@@ -1714,32 +1715,32 @@ Underfull \hbox (badness 3396) in paragraph at lines 62--62
 [][]|\TU/lmr/m/n/10 Tabelle der Mess-daten für die Zählrate in Ab-hängigkeit von der
  []
 
-[7]
-<plots/Kanalkalibrierung.png, id=91, 412.6617pt x 312.2064pt>
+[7] [8<./plots/Auflösungszeit_18ns2.png>] [9]
+<plots/Kanalkalibrierung.png, id=115, 412.6617pt x 312.2064pt>
 File: plots/Kanalkalibrierung.png Graphic file (type png)
 <use plots/Kanalkalibrierung.png>
-Package luatex.def Info: plots/Kanalkalibrierung.png  used on input line 149.
+Package luatex.def Info: plots/Kanalkalibrierung.png  used on input line 162.
 (luatex.def)             Requested size: 250.95587pt x 189.86443pt.
- [8<./plots/Auflösungszeit_18ns.png>] [9] [10<./plots/Auflösungszeit_10ns.png>
-<./plots/Kanalkalibrierung.png>]
-<plots/Hauptmessung.png, id=123, 419.166pt x 315.0972pt>
+ [10<./plots/Auflösungszeit_10ns.png>] [11<./plots/Kanalkalibrierung.png>]
+<plots/Hauptmessung.png, id=138, 419.166pt x 315.0972pt>
 File: plots/Hauptmessung.png Graphic file (type png)
 <use plots/Hauptmessung.png>
-Package luatex.def Info: plots/Hauptmessung.png  used on input line 175.
+Package luatex.def Info: plots/Hauptmessung.png  used on input line 188.
 (luatex.def)             Requested size: 334.60571pt x 251.53479pt.
- [11]) (./content/diskussion.tex [12<./plots/Hauptmessung.png>]
+ [12<./plots/Hauptmessung.png>])
+(./content/diskussion.tex [13]
 
-LaTeX Warning: Citation 'pdglive' on page 13 undefined on input line 8.
+LaTeX Warning: Citation 'pdglive' on page 14 undefined on input line 8.
 
-) [13]
+) [14]
 
 LaTeX Warning: Empty bibliography on input line 25.
 
 (./main.aux)
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: C49A254156CD8E4FED0299062B58174D;10953.
+(rerunfilecheck)             Checksum: 85FEC82C6C9AB3AFF1892CF6C56CECEE;10953.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 70C0332878BD38DE8C9E646B3F10A029;1278.
+(rerunfilecheck)             Checksum: 9E26F1A6410E2C334FE8CF13B1EA2939;1278.
 
 
 LaTeX Warning: There were undefined references.
@@ -1755,27 +1756,30 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 35546 strings out of 479005
+ 35553 strings out of 479005
  100000,1977958 words of node,token memory allocated
  792 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 4 dir, 2 glue, 4 kern, 1 glyph, 55 attribute, 79 gl
 ue_spec, 29 attribute_list, 1 write nodes
-   avail lists: 1:4,2:1904,3:237,4:45,5:493,6:43,7:6878,8:60,9:992,10:19,11:423
- 53841 multiletter control sequences out of 65536+600000
- 162 fonts using 41726867 bytes
- 110i,13n,114p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,200000s
-<c:/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texl
-ive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texli
-ve/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texliv
-e/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive
-/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2020
-/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2020/texm
-f-dist/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2020/texmf-dist/fo
-nts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (13 pages, 425397 bytes).
+   avail lists: 1:4,2:2116,3:228,4:47,5:496,6:47,7:6878,8:62,9:1018,10:19,11:423
 
-PDF statistics: 246 PDF objects out of 1000 (max. 8388607)
- 195 compressed objects within 2 object streams
- 54 named destinations out of 1000 (max. 131072)
+ 53841 multiletter control sequences out of 65536+600000
+ 162 fonts using 41727599 bytes
+ 110i,14n,114p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,200000s
+<c:/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman5-regular.otf><c:/te
+xlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/
+2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2020/tex
+mf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2020/texm
+f-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2020/texmf
+-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2020/texmf-
+dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2020/texmf-dist/
+fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2020/texmf-dist/fonts
+/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2020/texmf-dist/fonts/opentype
+/public/lm/lmroman12-bold.otf>
+Output written on main.pdf (14 pages, 445878 bytes).
+
+PDF statistics: 271 PDF objects out of 1000 (max. 8388607)
+ 212 compressed objects within 3 object streams
+ 61 named destinations out of 1000 (max. 131072)
  105 words of extra memory for PDF output out of 10000 (max. 100000000)
 
