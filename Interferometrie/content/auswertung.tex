@@ -5,14 +5,15 @@
 \label{sec:Kontrast}
 
 In order to study the usage of interferrometrie to determine refraction indices, first of all the kontrast of the used Sagnac Interferometer was calculated.
-The kontrast was calculated with equation \eqref{} and the values of table \ref{tab:Kontrast}.
+The kontrast was calculated with equation \eqref{eq:K} and the values of table \ref{tab:Kontrast}.
 Table \ref{tab:Kontrast} also contains the calculated kontrast values.
 The maximum contrast K = 0.92 was measured at $\Phi = 130°$
 Therefore the polarization filter was set to $\Phi = 130°$ for the following measurements.
 In addition, a fit of the form 
 
 \begin{equation}
-K = A \cdot |\text{cos}(\Phi) \text{sin}(\Phi)|
+  K = A \cdot |\text{cos}(\Phi) \text{sin}(\Phi)|
+  \label{eq:fit}
 \end{equation}
 is performed with the mean values of the measured values.
 This can be seen for the determined value of $A = 1.76 \pm 0.07$ in graph \ref{fig:Kontrast_Ausgleich}.
@@ -20,7 +21,7 @@ This can be seen for the determined value of $A = 1.76 \pm 0.07$ in graph \ref{f
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{plots/kontrast_ausgleich.pdf}
-  \caption{The measured values of the contrast according to equation \eqref{} and the fit calculation according to equation \eqref{}.}
+  \caption{The measured values of the contrast according to equation \eqref{eq:K} and the fit calculation according to equation \eqref{eq:fit}.}
   \label{fig:Kontrast_Ausgleich}
 \end{figure}
 
@@ -60,8 +61,8 @@ This can be seen for the determined value of $A = 1.76 \pm 0.07$ in graph \ref{f
 \label{sec:glas}
 
 To determine the refractive index of glass, the number of intensity maxima M was recorded.
-The refractive index was determined using the equation \eqref{}. 
-The thickness of the plates is $D = 1$ mm, the wavelength of the laser  $\lambda_0 = 632.990$ nm and $\Omega_0 = 10°$ as the two plates are each $\Omega_0$ inclined.
+The refractive index was determined using the equation \eqref{eq:n}. 
+The thickness of the plates is $D = 1$ mm, the wavelength of the laser  $\lambda_{\text{vac}} = 632.990$ nm. %and $\Omega_0 = 10°$ as the two plates are each $\Omega_0$ inclined.
 The measured values, as well as the refractive index determined in each case, can be found in Table \ref{tab:Glas}.
 On average, the refractive index determined for glass is
 \begin{equation*}
@@ -76,16 +77,16 @@ On average, the refractive index determined for glass is
     \toprule
     Durchgang & M & $n_\text{Glas}$ \\
     \midrule
-    1    &  38  & 1.652392 \\
-    2    &  38  & 1.652392 \\   
-    3    &  38  & 1.652392 \\   
-    4    &  37  & 1.624503 \\   
-    5    &  38  & 1.652392 \\   
-    6    &  38  & 1.652392 \\   
-    7    &  37  & 1.624503 \\   
-    8    &  38  & 1.652392 \\   
-    9    &  38  & 1.652392 \\   
-    10   &  37  & 1.624503 \\   
+    1    &  38  & 1.652 \\
+    2    &  38  & 1.652 \\   
+    3    &  38  & 1.652 \\   
+    4    &  37  & 1.625 \\   
+    5    &  38  & 1.652 \\   
+    6    &  38  & 1.652 \\   
+    7    &  37  & 1.625 \\   
+    8    &  38  & 1.652 \\   
+    9    &  38  & 1.652 \\   
+    10   &  37  & 1.625 \\   
     \bottomrule
   \end{tabular}
 \end{table}
@@ -94,7 +95,7 @@ On average, the refractive index determined for glass is
 \subsection{Refraction index of air}
 \label{sec:air}
 
-To determine the refractive index of air, the measured values were recorded as described in chapter \ref{} and determined using equation \ref{}.
+To determine the refractive index of air, the measured values were recorded as described in chapter \autoref{sec:Durchführung} and determined using equation \eqref{eq:n_air}.
 The length of the gas chamber is L = (100.0 ± 0.1) mm and the temperature T = 20.6 °C .
 The recorded values as well as the calculated reflection indices are shown in Table \ref{tab:Luft}.
 %The average refractive index for each of the runs is listed in Table \ref{}.
@@ -107,7 +108,7 @@ The recorded values as well as the calculated reflection indices are shown in Ta
 
 \begin{table}[H]
   \centering
-  \caption{Measured values recorded to determine the refractive index of air next to the refractive index calculated according to equation \eqref{}.
+  \caption{Measured values recorded to determine the refractive index of air next to the refractive index calculated according to equation \eqref{eq:n_air}.
   Here, $M_i$ denotes the number of interference minima or maxima that have passed up to that point, where $i$ indicates the passage.}
   \label{tab:Luft}
   \begin{tabular}{c S[table-format=2.0] S[table-format=1.8] S[table-format=2.0] S[table-format=1.8] S[table-format=2.0] S[table-format=1.8] S[table-format=2.0] S[table-format=1.8]}
@@ -142,7 +143,7 @@ The recorded values as well as the calculated reflection indices are shown in Ta
 \subsection{ Lorentz-Lorenz law}
 \label{sec:Lorenz}
 
-Since the refractive index also dependents on temperature and pressure according to the Lorentz-Lorenz law, an fit calculation is carried out according to equation \ref{} .
+Since the refractive index also dependents on temperature and pressure according to the Lorentz-Lorenz law, an fit calculation is carried out according to equation \ref{eq:n_glas_taylor} .
 The fit has the form 
 
 \begin{equation}

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/W32TeX)  (format=lualatex 2020.11.30)  5 MAR 2024 01:17
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/W32TeX)  (format=lualatex 2020.11.30)  5 MAR 2024 02:50
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1702,11 +1702,7 @@ LaTeX Warning: Citation 'Hecht_2018' on page 3 undefined on input line 19.
 
 LaTeX Warning: Citation 'Hecht_2018' on page 3 undefined on input line 19.
 
-[3] [4<./PBSC.PNG>] [5]
-
-LaTeX Warning: Citation 'sample' on page 6 undefined on input line 79.
-
-) (./content/durchfuehrung.tex
+[3] [4<./PBSC.PNG>] [5]) (./content/durchfuehrung.tex
 <Sagnac-Interferometer.png, id=86, 417.56pt x 349.305pt>
 File: Sagnac-Interferometer.png Graphic file (type png)
 <use Sagnac-Interferometer.png>
@@ -1719,89 +1715,62 @@ LaTeX Warning: Citation 'V64' on page 6 undefined on input line 7.
 
 LaTeX Warning: Citation 'V64' on page 6 undefined on input line 7.
 
-[6<./Sagnac-Interferometer.PNG>]) (./content/auswertung.tex
-
-LaTeX Warning: Reference `' on page 7 undefined on input line 8.
-
-[7]
-<plots/kontrast_ausgleich.pdf, id=104, 462.528pt x 346.896pt>
+[6] [7<./Sagnac-Interferometer.PNG>]) (./content/auswertung.tex
+<plots/kontrast_ausgleich.pdf, id=106, 462.528pt x 346.896pt>
 File: plots/kontrast_ausgleich.pdf Graphic file (type pdf)
 <use plots/kontrast_ausgleich.pdf>
-Package luatex.def Info: plots/kontrast_ausgleich.pdf  used on input line 22.
+Package luatex.def Info: plots/kontrast_ausgleich.pdf  used on input line 23.
 (luatex.def)             Requested size: 418.25555pt x 313.70677pt.
-
-
-LaTeX Warning: Reference `' on page 8 undefined on input line 23.
-
-
-LaTeX Warning: Reference `' on page 8 undefined on input line 23.
-
-
-LaTeX Warning: Reference `' on page 8 undefined on input line 23.
-
-
-LaTeX Warning: Reference `' on page 8 undefined on input line 23.
-
-
-Overfull \hbox (30.92232pt too wide) in paragraph at lines 31--56
+ [8]
+Overfull \hbox (30.92232pt too wide) in paragraph at lines 32--57
  [][] 
  []
 
-[8<./plots/kontrast_ausgleich.pdf>]
-
-LaTeX Warning: Reference `' on page 9 undefined on input line 63.
-
-[9]
-
-LaTeX Warning: Reference `' on page 10 undefined on input line 97.
-
-
-LaTeX Warning: Reference `' on page 10 undefined on input line 97.
-
-
-LaTeX Warning: Reference `' on page 10 undefined on input line 111.
-
+[9<./plots/kontrast_ausgleich.pdf>] [10]
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 111.
+(Font)              scaled to size 5.00053pt on input line 112.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 111.
+(Font)              scaled to size 4.99947pt on input line 112.
 
-LaTeX Warning: Reference `' on page 10 undefined on input line 111.
-
-
-Overfull \hbox (11.47221pt too wide) in paragraph at lines 113--138
+Overfull \hbox (11.47221pt too wide) in paragraph at lines 114--139
  [][] 
  []
 
-[10]
-
-LaTeX Warning: Reference `' on page 11 undefined on input line 145.
-
-[11]
-<plots/lorentz_lorenz.pdf, id=183, 462.528pt x 346.896pt>
+[11] [12]
+<plots/lorentz_lorenz.pdf, id=202, 462.528pt x 346.896pt>
 File: plots/lorentz_lorenz.pdf Graphic file (type pdf)
 <use plots/lorentz_lorenz.pdf>
-Package luatex.def Info: plots/lorentz_lorenz.pdf  used on input line 184.
+Package luatex.def Info: plots/lorentz_lorenz.pdf  used on input line 185.
 (luatex.def)             Requested size: 418.25555pt x 313.70677pt.
-) (./content/diskussion.tex [12<./plots/lorentz_lorenz.pdf>]
+) (./content/diskussion.tex [13<./plots/lorentz_lorenz.pdf>]
 
-LaTeX Warning: Citation 'Brechungsindex' on page 13 undefined on input line 10.
+LaTeX Warning: Citation 'Brechungsindex' on page 14 undefined on input line 12.
 
 
-LaTeX Warning: Citation 'Brechungsindex' on page 13 undefined on input line 15.
+LaTeX Warning: Citation 'Brechungsindex' on page 14 undefined on input line 16.
 
 )
 
 LaTeX Warning: Empty bibliography on input line 23.
 
-[13] (./main.aux)
-Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 65A7FDBB118D439DF2EA8CB86C256898;14117.
-Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: A84F410A3568A4B4972B4AE07A498FD0;1613.
+[14] (./main.aux)
 
+Package rerunfilecheck Warning: File `main.aux' has changed. Rerun.
+
+Package rerunfilecheck Info: Checksums for `main.aux':
+(rerunfilecheck)             Before: 19A8665D8C6DDC76E2BB34FEE0A8E329;14432
+(rerunfilecheck)             After:  FCB7F3F94A6551FB10C7E2BD4385BD74;14361.
+
+Package rerunfilecheck Warning: File `main.toc' has changed. Rerun.
+
+Package rerunfilecheck Info: Checksums for `main.toc':
+(rerunfilecheck)             Before: 291402BDC6719AA09957E3AFC19DD0E4;1614
+(rerunfilecheck)             After:  47DD3B57D742F5B1F5415EDD7259AD89;1614.
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -1814,16 +1783,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 35895 strings out of 479005
- 156265,1977958 words of node,token memory allocated
- 822 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 4 dir, 2 glue, 4 kern, 1 glyph, 65 attribute, 79 gl
-ue_spec, 34 attribute_list, 1 write nodes
-   avail lists: 1:7,2:7711,3:430,4:127,5:3246,6:57,7:9925,8:84,9:3551,10:14,11:7
-71
- 54179 multiletter control sequences out of 65536+600000
- 294 fonts using 78231135 bytes
+ 35902 strings out of 479005
+ 156257,1977958 words of node,token memory allocated
+ 834 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 4 dir, 2 glue, 4 kern, 1 glyph, 69 attribute, 79 gl
+ue_spec, 36 attribute_list, 1 write nodes
+   avail lists: 1:17,2:7704,3:423,4:127,5:3246,6:56,7:9925,8:84,9:3547,10:14,11:
+771
+ 54183 multiletter control sequences out of 65536+600000
+ 294 fonts using 78231619 bytes
  110i,29n,114p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,200000s
+
+warning  (pdf backend): unreferenced destination with name 'equation.2.12'
 <c:/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/te
 xlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/tex
 live/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/202
@@ -1833,10 +1804,10 @@ texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2020/texmf
 -dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2020/texmf-dist
 /fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2020/texmf-dist/fonts/op
 entype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (13 pages, 356109 bytes).
+Output written on main.pdf (14 pages, 357163 bytes).
 
-PDF statistics: 357 PDF objects out of 1000 (max. 8388607)
- 246 compressed objects within 3 object streams
- 54 named destinations out of 1000 (max. 131072)
+PDF statistics: 375 PDF objects out of 1000 (max. 8388607)
+ 260 compressed objects within 3 object streams
+ 57 named destinations out of 1000 (max. 131072)
  145 words of extra memory for PDF output out of 10000 (max. 100000000)
 

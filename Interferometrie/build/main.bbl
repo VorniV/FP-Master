@@ -47,8 +47,54 @@
       \verb http://www.chemie.de/lexikon/Brechzahl.html
       \endverb
     \endentry
+    \entry{Hecht_2018}{book}{}
+      \name{author}{1}{}{%
+        {{hash=9a6efa2d012e3aaa08e4b6a8cf6a8b4c}{%
+           family={Hecht},
+           familyi={H\bibinitperiod},
+           given={Eugene},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Boston}%
+      }
+      \list{publisher}{1}{%
+        {De Gruyter}%
+      }
+      \strng{namehash}{9a6efa2d012e3aaa08e4b6a8cf6a8b4c}
+      \strng{fullhash}{9a6efa2d012e3aaa08e4b6a8cf6a8b4c}
+      \strng{bibnamehash}{9a6efa2d012e3aaa08e4b6a8cf6a8b4c}
+      \strng{authorbibnamehash}{9a6efa2d012e3aaa08e4b6a8cf6a8b4c}
+      \strng{authornamehash}{9a6efa2d012e3aaa08e4b6a8cf6a8b4c}
+      \strng{authorfullhash}{9a6efa2d012e3aaa08e4b6a8cf6a8b4c}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9783110526653}
+      \field{title}{Optik}
+      \field{year}{2018}
+      \verb{doi}
+      \verb doi:10.1515/9783110526653
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1515/9783110526653
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1515/9783110526653
+      \endverb
+    \endentry
+    \entry{V64}{manual}{}
+      \list{organization}{1}{%
+        {Fakultät Physik, TU Dortmund}%
+      }
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labeltitlesource}{title}
+      \field{title}{V64 Interferometry}
+      \field{year}{2023}
+    \endentry
   \enddatalist
-  \missing{sample}
 \endrefsection
 \endinput
 

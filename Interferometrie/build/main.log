@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.10.12)  21 JAN 2024 14:03
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.10.12)  29 JAN 2024 10:21
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1405,15 +1405,7 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = main.bcf
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (./build/main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                sample
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (./build/main.bbl)
 Package biblatex Info: Reference section=0 on input line 11.
 Package biblatex Info: Reference segment=0 on input line 11.
 Package hyperref Info: Link coloring OFF on input line 11.
@@ -1472,96 +1464,69 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
 \openout4 = main.toc
  [2
 
-] (./content/theorie.tex) (./content/durchfuehrung.tex) (./content/auswertung.tex
-
-LaTeX Warning: Reference `' on page 3 undefined on input line 8.
-
-<plots/kontrast_ausgleich.pdf, id=43, 462.528pt x 346.896pt>
+] (./content/theorie.tex
+<PBSC.png, id=60, 230.8625pt x 162.6075pt>
+File: PBSC.png Graphic file (type png)
+<use PBSC.png>
+Package luatex.def Info: PBSC.png  used on input line 18.
+(luatex.def)             Requested size: 250.95587pt x 176.75978pt.
+ [3] [4<./PBSC.png>] [5]) (./content/durchfuehrung.tex
+<Sagnac-Interferometer.png, id=91, 417.56pt x 349.305pt>
+File: Sagnac-Interferometer.png Graphic file (type png)
+<use Sagnac-Interferometer.png>
+Package luatex.def Info: Sagnac-Interferometer.png  used on input line 6.
+(luatex.def)             Requested size: 334.60571pt x 279.92407pt.
+ [6] [7<./Sagnac-Interferometer.png>]) (./content/auswertung.tex
+<plots/kontrast_ausgleich.pdf, id=115, 462.528pt x 346.896pt>
 File: plots/kontrast_ausgleich.pdf Graphic file (type pdf)
 <use plots/kontrast_ausgleich.pdf>
-Package luatex.def Info: plots/kontrast_ausgleich.pdf  used on input line 22.
+Package luatex.def Info: plots/kontrast_ausgleich.pdf  used on input line 23.
 (luatex.def)             Requested size: 418.25555pt x 313.70677pt.
-
-LaTeX Warning: Reference `' on page 3 undefined on input line 23.
-
-
-LaTeX Warning: Reference `' on page 3 undefined on input line 23.
-
-
-LaTeX Warning: Reference `' on page 3 undefined on input line 23.
-
-
-LaTeX Warning: Reference `' on page 3 undefined on input line 23.
-
-[3]
-Overfull \hbox (30.92232pt too wide) in paragraph at lines 31--56
+ [8]
+Overfull \hbox (30.92232pt too wide) in paragraph at lines 32--57
  [][] 
  []
 
-[4<./plots/kontrast_ausgleich.pdf>]
-
-LaTeX Warning: Reference `' on page 5 undefined on input line 63.
-
-[5]
-
-LaTeX Warning: Reference `' on page 6 undefined on input line 97.
-
-
-LaTeX Warning: Reference `' on page 6 undefined on input line 97.
-
-
-LaTeX Warning: Reference `' on page 6 undefined on input line 111.
-
+[9<./plots/kontrast_ausgleich.pdf>] [10]
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 111.
+(Font)              scaled to size 5.00053pt on input line 112.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 111.
+(Font)              scaled to size 4.99947pt on input line 112.
 
-LaTeX Warning: Reference `' on page 6 undefined on input line 111.
-
-
-Overfull \hbox (11.47221pt too wide) in paragraph at lines 113--138
+Overfull \hbox (11.47221pt too wide) in paragraph at lines 114--139
  [][] 
  []
 
-[6]
-
-LaTeX Warning: Reference `' on page 7 undefined on input line 145.
-
-[7]
-<plots/lorentz_lorenz.pdf, id=127, 462.528pt x 346.896pt>
+[11] [12]
+<plots/lorentz_lorenz.pdf, id=209, 462.528pt x 346.896pt>
 File: plots/lorentz_lorenz.pdf Graphic file (type pdf)
 <use plots/lorentz_lorenz.pdf>
-Package luatex.def Info: plots/lorentz_lorenz.pdf  used on input line 184.
+Package luatex.def Info: plots/lorentz_lorenz.pdf  used on input line 185.
 (luatex.def)             Requested size: 418.25555pt x 313.70677pt.
-) (./content/diskussion.tex [8<./plots/lorentz_lorenz.pdf>]) [9] (./build/main.aux)
+) (./content/diskussion.tex [13<./plots/lorentz_lorenz.pdf>]) [14] (./build/main.aux)
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 777B0AF52CF8FF9165CB3BE0121293F7;8999.
+(rerunfilecheck)             Checksum: 5DBD588E19489269BDFFC253BFA9CCAE;14935.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 3AAAC31C4CCDA0387BA1888C73FCBF6A;857.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: 73C4E37A42032A5E3EBF1FC8DA7E7F96;1681.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 35855 strings out of 479059
- 156263,1977958 words of node,token memory allocated
- 724 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 4 dir, 2 glue, 4 kern, 1 glyph, 29 attribute, 81 glue_spec, 16 attribute_list, 1 write nodes
-   avail lists: 1:5,2:7714,3:303,4:92,5:3246,6:32,7:9920,8:53,9:3551,10:14,11:281
- 54112 multiletter control sequences out of 65536+600000
- 296 fonts using 111063035 bytes
+ 35934 strings out of 479059
+ 156261,1977958 words of node,token memory allocated
+ 844 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 4 dir, 2 glue, 4 kern, 1 glyph, 69 attribute, 81 glue_spec, 36 attribute_list, 1 write nodes
+   avail lists: 1:11,2:7707,3:440,4:129,5:3246,6:61,7:9924,8:78,9:3547,10:14,11:793
+ 54150 multiletter control sequences out of 65536+600000
+ 296 fonts using 111064487 bytes
  98i,29n,114p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,200000s
-</home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (9 pages, 80922 bytes).
+</home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on main.pdf (14 pages, 367111 bytes).
 
-PDF statistics: 291 PDF objects out of 1000 (max. 8388607)
- 183 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 131072)
- 73 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 414 PDF objects out of 1000 (max. 8388607)
+ 288 compressed objects within 3 object streams
+ 61 named destinations out of 1000 (max. 131072)
+ 153 words of extra memory for PDF output out of 10000 (max. 100000000)
 

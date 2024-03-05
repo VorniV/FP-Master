@@ -8,14 +8,14 @@
 \contentsline {subsection}{\numberline {2.4}Refractive indicex of glass}{5}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Refractive index of air}{5}{subsection.2.5}%
 \contentsline {section}{\numberline {3}Measurement}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Adjustment}{7}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Measuring the visibility}{7}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Refractive index of glass}{7}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Refractive index of air}{7}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.1}Adjustment}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Measuring the visibility}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Refractive index of glass}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Refractive index of air}{8}{subsection.3.4}%
 \contentsline {section}{\numberline {4}Analysis}{8}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Kontrast}{8}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Refraction index of glas}{9}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Refraction index of air}{10}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Lorentz-Lorenz law}{11}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Diskussion}{12}{section.5}%
+\contentsline {subsection}{\numberline {4.2}Refraction index of glas}{10}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Refraction index of air}{11}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Lorentz-Lorenz law}{12}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Diskussion}{13}{section.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

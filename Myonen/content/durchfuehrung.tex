@@ -5,11 +5,30 @@
 \subsection{Aufbau}
 Wie in Kapitel \ref{sec:Theorie} beschrieben, wird die Lebensdauer der Myonen bestimmt, indem die Zeit zwischen Eintreffen und Zerfall eines Myons in einem Szintillator gemessen wird.
 Dies wird durch den in Abbildung \ref{fig:1} dargestellten Aufbau realisiert.
-Die in dem Szintillator entstehenden Photonen beim Eintreffen so wie beim Zerfallen der Myonen, werden durch die beiden Photomultiplier (PM) detektiert.
+
+Anorganische Szintillatoren, wie der verwendete, bestehen aus dotierten Kristallen.
+Die in den Szintillator eintreffenden Myonen, so wie die hoch energetischen Elektronen, die bei dem Zerfall der Myonen entstehen, erzeugen in dem Szintillator durch stoßprozessen freie Elektronen.
+Diese wandern zu den Aktivatorzentren der dotierten Kristalle und relaxieren dort. 
+Dabei werden Photonen emittiert.
+Damit diese Photonen nicht wieder von dem Szintillatormaterial absorbiert werden, bevor sie detektiert werden können, werden dem Szintillator Wellenlängenschieber hinzugefügt.
+Dieses Moleküle besitzen eine Absorptionsfrequenz, die genau der Frequenz der emittierten Photonen entspricht, wodurch sie einen Großteil dieser Photonen absorbieren.
+Zudem hat der Wellenlängenschieber ein Emissionsspektrum, das nicht dem absorptionsspektrum des Szintillatormaterials entspricht und üblicherweise niederenergetischer ist als das des dotierten Kristalls.
+Dadurch werden die emittierten Photonen nicht von dem Szintillatormaterial absorbiert und gelangen bis zu den beiden Photomultiplier (PM).
+
+Dort treffen die Photonen auf eine Photokathode und lösen durch den äußeren photoelektrischen Effekt Elektronen aus der Oberfläche.
+Diese werden durch eine angelegte Spannung hin zu einer Dynode beschleunigt. 
+Dort schlägt jedes der beschleunigten Elektronen mehrere Sekundarelektronen heraus. 
+Diese werden wiederum hin zu einer weiteren Dynode beschleunigt.
+Dadurch wächst die Anzahl der Elektron mit jeder Dynode exponentiell.
+Am Ende treffen die beschleunigten Elektronen auf eineAnode, wo sie einen Spannungsabfall erzeugen.
+Dieser Spannungsabfall ist das Ausgangssignal des Photomultipliers und entspricht der Messung eines Photons.
+
+%Die in den Szintillator eintreffenden Myonen, so wie die hoch energetischen Elektronen, die bei dem Zerfall der Myonen entstehen, erzeugen in dem Szintillator durch stoßprozessen mit dem Szintillatormaterial freie Elektronen.
+%Die in dem Szintillator entstehenden Photonen beim Eintreffen so wie beim Zerfallen der Myonen, werden durch die beiden Photomultiplier (PM) detektiert.
 Die Signale der PM werden durch Verzögerungsleitungen, welche vorangegangene Verzögerungen der einzelnen PM ausgleichen, an Diskriminatoren angeschlossen.
-Die Diskriminatoren unterdrücken alle Signale unterhalb eines bestimmten Schwellspannung U$_0$, wodurch thermische Anregungen der PM herausgefiltert werden.
+Die Diskriminatoren unterdrücken alle Signale überhalb eines bestimmten Schwellspannung U$_0$, wodurch thermische Anregungen der PM herausgefiltert werden.
 Höher energetischer Untergrund wird durch die nachgeschaltete Koinzidenzschaltung herausgefiltert.
-Diese gibt ein Signale nur weiter, wenn beide eingehende Signale innerhalb eines Zeitraumes $t_k$ eintreffen.
+Diese gibt ein Signal nur weiter, wenn beide eingehenden Signale innerhalb eines Zeitraumes $t_k$ eintreffen.
 Durch die Kombination der beiden Filter, wird der größte Teil des unkorrelierten Untergrundes herausgefiltert.
 
 \begin{figure}
@@ -18,21 +37,21 @@ Durch die Kombination der beiden Filter, wird der größte Teil des unkorreliert
     \caption{Skizze der Schaltung \cite{V01}.}
     \label{fig:1}
 \end{figure}
-Die gefilterten Signale werden nun in den Schaltungsteil weiter geleitet, der die Signale zählt, so wie die Lebensdauer misst, falls das Myon zerfällt.
+Die gefilterten Signale werden in den Schaltungsteil weiter geleitet, der die Signale zählt, so wie die Lebensdauer misst, falls das Myon zerfällt.
 Dafür wird das Signal in 3 Teile aufgeteilt.
 Zwei Signale werden an je ein AND-Gatter angeschlossen. 
-Das Dritte wird nach einer Verzögerung von $\SI{30}{\nano\second}$ an einen Monoflop angeschlossen.
-Nachdem der Monoflop durch ein HIGH-Signal getriggert wurde, gibt er für die Zeit T$_S$, ein HIGH-Signal aus.
-Dabei entspricht T$_S$ der Suchzeit, in der ein zweites eintreffendes Signal als Zerfall des vorher eingetroffenen Myons interpretiert wird.
+Das Dritte wird nach einer Verzögerung von $\SI{30}{\nano\second}$ an einen Monoflop weiter geleitet.
+Nachdem der Monoflop durch ein HIGH-Signal getriggert wurde, gibt er für die Zeit T$_{\text{S}}$, ein HIGH-Signal aus.
+Dabei entspricht T$_{\text{S}}$ der Suchzeit, in der ein zweites eintreffendes Signal als Zerfall des vorher eingetroffenen Myons interpretiert wird.
 Der Monoflop ist invertiert an das erste AND-Gatter und normal an das zweite AND-Gatter angeschlossen.
 Ist die Schaltung im Ruhezustand, also der Monoflop nicht getriggert und es trifft ein Signal ein, so liegen am ersten AND-Gatter ein HIGH-Signale an.
 Dieses wird weiter an den Impulszähler gegeben und startet den Zeit-Amplituden-Converter (TAC).
 Am zweiten AND-Gatter liegen zur selben Zeit ein HIGH- und ein LOW-Signal an, daher wird kein Signal weiter geleitet.
 
-Trifft nun innerhalb der Suchzeit T$_S$ ein weiteres Signal ein, so liegen durch den Aktivierten Monoflip ein HIGH- und ein LOW-Signal a, ersten AND-Gatter an, es wird kein Signal weiter geleitet.
+Trifft innerhalb der Suchzeit T$_{\text{S}}$ ein weiteres Signal ein, so liegen durch den Aktivierten Monoflip ein HIGH- und ein LOW-Signal a, ersten AND-Gatter an, es wird kein Signal weiter geleitet.
 Am zweiten AND-Gatter hingegen liegen jetzt zwei HIGH-Signale an, das Signal wird weiter geleitet.
 Durch das Signal wird ein weiterer Impulszähler aktiviert, so wie der TAC gestoppt.
-Der Zeit-Amplituden-Converter gibt nun eine Spannung weiter, die proportional zu der Zeit zwischen den beiden eingegangenen Signalen ist.
+Der Zeit-Amplituden-Converter gibt daraufhin eine Spannung weiter, die proportional zu der Zeit zwischen den beiden eingegangenen Signalen ist.
 Diese Spannung wird an einen Multi-Channel-Analyser (MCA) geleitet, welcher durch einen PC ausgewertet wird.
 
 \subsection{Durchführung}
@@ -42,9 +61,9 @@ Danach wird die Pulsrate der Koinzidenzschaltung in Abhängigkeit der Verzögeru
 Dies wird für die Pulsdauern $\Delta t = \SI{20}{\nano\second}$ und $\Delta t = \SI{10}{\nano\second}$, welche an den Diskriminatoren eingestellt werden können, durchgeführt.
 Für den restlichen Versuch wird eine Pulsdauer von $\Delta t = \SI{10}{\nano\second}$ gewählt.
 Anschließend werden die Verzögerungsleitungen so eingestellt, dass eine möglichst hohe Impulsrate von der Koinzidenzschaltung ausgegeben wird.
-Zudem wird an dem Monoflop eine Suchzeit von $T_S = \SI{12}{\nano\second}$ eingestellt.
+Zudem wird an dem Monoflop eine Suchzeit von T$_{\text{S}} = \SI{12}{\nano\second}$ eingestellt.
 %Nun wird der TAC so eingestellt, dass möglichst viele Kanäle des MAC genutzt werden.
-Nun werden der Tac und der MCA kalibriert, damit aus der Spannungshöhe bzw. dem Channel die Lebensdauer der Myonen bestimmt werden kann.
+Der TAC und der MCA werden kalibriert, damit aus der Spannungshöhe bzw. dem Channel die Lebensdauer der Myonen bestimmt werden kann.
 Dafür wird der Doppelimpulsgenerator an die Koinzidenzschaltung angeschlossen und für verschiedene Impulsabstände der entsprechende Channel notiert.
 Am Ende wird die Messung der Lebensdauer der kosmischen Myonen gestartet.
 Diese geht etwa drei Tage lang, während der die Start-, so wie Stopp-Signale gezählt und die Lebensdauern der Myonen am Computer erfasst werden.

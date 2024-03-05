@@ -2353,11 +2353,10 @@
   <bcf:section number="0">
     <bcf:citekey order="1">Hecht_2018</bcf:citekey>
     <bcf:citekey order="2">Hecht_2018</bcf:citekey>
-    <bcf:citekey order="3">sample</bcf:citekey>
+    <bcf:citekey order="3">V64</bcf:citekey>
     <bcf:citekey order="4">V64</bcf:citekey>
-    <bcf:citekey order="5">V64</bcf:citekey>
+    <bcf:citekey order="5">Brechungsindex</bcf:citekey>
     <bcf:citekey order="6">Brechungsindex</bcf:citekey>
-    <bcf:citekey order="7">Brechungsindex</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
